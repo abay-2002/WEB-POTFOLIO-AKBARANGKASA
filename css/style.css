@@ -53,10 +53,11 @@ nav img {
 	border-radius: 10px;
 	margin: 10px;
 	margin-bottom: 0px;
+	width: 150px;
 }
 
 .sidenav .costumlist a {
-		margin-left: -8px;
+	margin-left: -8px;
 }
 
 .sidenav .costumlist:hover {

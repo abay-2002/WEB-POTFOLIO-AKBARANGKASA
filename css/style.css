@@ -1,0 +1,49 @@
+body {
+	font-family:font-family: 'Cairo', sans-serif;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+
+nav img {
+	width: 60px;
+}
+/*costumcolor navbar*/
+.costumcolor {
+	background-color: #1A1A1D;
+}
+
+/*costum color dropdown mainnav*/
+#dropdown-main .mainnavcstmcolor a {
+	color: rgba(0,0,0,.87);
+}
+
+.navlogo {
+	width: 20px;
+	margin-left: 10px;
+	margin-bottom: -4px;
+}
+
+/*costumsidenav*/
+.costumsdnav {
+/*	background-color: salmon;*/
+	border-bottom-right-radius: 80px;
+	border-top-right-radius: 8px;
+}
+
+.costumlist {
+	background-color: rgba(114,137,218,.3);
+	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 0px;
+	width: 150px;
+}
+
+.sidenav .costumlist > a:hover {
+  background-color: rgba(153,170,181,.5);
+  	border-radius: 10px;
+}
+
+.costumlist a {
+	margin-left: -9px;
+}

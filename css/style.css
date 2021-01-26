@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 * {
-	font-family:font-family: 'Cairo', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	margin:0;
 	padding:0;
 	font-weight:bold;
@@ -138,16 +138,44 @@ section .wavy{
 /*svg*/
 section #computerguy {
 	width: 60vh;
-	margin-top: -160px;
+	margin-top: -150px;
 	margin-left: 100px;
 }
 /*penutup svg*/
+/*svg animation*/
+section #computerguy #layar {
+	transform: rotate(10deg);
+}
+
+#layar {
+	animation: updowns 4s infinite linear;
+	animation-direction: alternate;
+}
+
+
+#right-bracket, #left-bracket {
+	animation: updowns 4s infinite linear;
+	animation-direction: alternate;
+}
+
+@keyframes updowns{
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: translateY(10px);
+	}
+}
+/*penutup svg animation*/
 
 @media only screen and (max-width: 542px){
 	section #computerguy {
 	width: 50vh;
 	margin-top: -210px;
-	margin-left: 70px;
+	margin-left: 40px;
 	}
 }
 

@@ -6,6 +6,11 @@
 	font-weight:bold;
 }
 
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
 nav img {
 	margin-top: 10px;
 	width: 140px;
@@ -76,14 +81,35 @@ nav .mainnavlist {
 
 /*wavy background svg*/
 section {
-	height:80vh;
+	height:90vh;
 	background-color: #7289da;
 	margin:0;
 	position:relative;
 	width: 100%;
 	overflow: hidden;
+	background-image: radial-gradient(ellipse farthest-corner at bottom right,rgba(255,255,255,.15),#7289da);
+	font-weight: bold;
+	color: rgb(255,255,255);
+	text-align: center;
 }
 
+section .hometxt {
+	margin-top: 50px;
+}
+
+section h2 {
+	font-size: 80px;
+}
+
+section h4 {
+	font-size: 40px;
+}
+
+section .container {
+	margin-top: 70px;
+}
+
+/*wavy animation*/
 .wavy {
 	width: 100%;
 	height: 100px;
@@ -99,7 +125,6 @@ section .wavy{
 	animation-delay: 0s;
 }
 
-
 @keyframes waveboy {
 	0%{
 		background-position-x:0;
@@ -108,8 +133,23 @@ section .wavy{
 		background-position-x:1000px;
 	}
 }
-
-
-h4 {
-	margin: 0;
+/*penutup wavy animation*/
+/*penutup wavy background*/
+/*svg*/
+section #computerguy {
+	width: 60vh;
+	margin-top: -160px;
+	margin-left: 100px;
 }
+/*penutup svg*/
+
+@media only screen and (max-width: 542px){
+	section #computerguy {
+	width: 50vh;
+	margin-top: -210px;
+	margin-left: 70px;
+	}
+}
+
+
+

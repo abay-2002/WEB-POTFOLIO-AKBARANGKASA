@@ -11,11 +11,23 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0;
 }
 
+/*nav angkasa logo*/
+nav {
+	box-shadow: none !important;
+}
+
 nav img {
 	margin-top: 10px;
 	width: 140px;
 }
 /*mainnav container*/
+/*.costumfixednav {
+	width: 100px;
+	height: 100px;
+	background-color: salmon;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0) !important;
+}*/
+
 nav .mainnavlist {
 	margin-right: -90px;
 }
@@ -23,7 +35,6 @@ nav .mainnavlist {
 /*costumcolor mainnavbar*/
 .costumcolor {
 	background-color: #7289da;
-	margin: 
 }
 
 .costumcolor ul li a {
@@ -78,8 +89,57 @@ nav .mainnavlist {
 	margin-bottom: 0px;
 	overflow: hidden;
 }
+/*PENUTUP NAV*/
 
-/*wavy background svg*/
+/*HOME*/
+/*TYPING ANIMATION HOME*/
+.line {
+      top: 50%;
+      width: 11ch;
+      font-size: 45px;
+      margin: 50px auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+     /* transform: translateY(-10%);*/
+      /*animation:  KITA TIDAK MENARUH animation iteration-count blinkTextCursor disini agar animation dapat bekerja karena class line berada bersama di .anime-typewriter SEBENARNYA BISA SAJA KITA MENARUH ANIMATION DIDALAM KELAS LINE INI, TETAPI AGAR LEBIH MUDAH MEMBEDAKANNYA KITA MEMISAHKANNYA DENGAN KELAS LAIN*/
+}
+
+.anim-typewriter {
+      animation: typewriter 2.2s steps(22) 1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 11ch;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+/*PENUTUP TYPING ANIMATION HOME*/
+
+
+
+
+
+
+
+
+
+
+/*HOME TEXT*/
 section {
 	height:90vh;
 	background-color: #7289da;
@@ -108,8 +168,12 @@ section h4 {
 section .container {
 	margin-top: 70px;
 }
+/*PENUTUP HOME TEXT*/
 
-/*wavy animation*/
+
+
+
+/*wavy animation HOME*/
 .wavy {
 	width: 100%;
 	height: 100px;
@@ -133,23 +197,29 @@ section .wavy{
 		background-position-x:1000px;
 	}
 }
-/*penutup wavy animation*/
-/*penutup wavy background*/
+/*penutup wavy animation HOME*/
+/*penutup wavy background HOME*/
 /*svg*/
 section #computerguy {
 	width: 60vh;
 	margin-top: -150px;
 	margin-left: 100px;
 }
-/*penutup svg*/
-/*svg animation*/
-#layar {
-	animation: updowns 4s infinite linear;
-	animation-direction: alternate;
+section #computerguy #man {
+	animation: dudeanim 4s infinite steps(900);
+	transform-origin: center;
+	transform-box:fill-box;
 }
-
-
-#right-bracket, #left-bracket {
+/* @keyframes dudeanim {
+ 	0%{
+ 		transform: rotateZ(0deg);
+ 	}
+ 	100%{
+ 		transform: rotateZ(360deg);
+ 	}
+ }*/
+/*svg animation HOME*/
+#layar {
 	animation: updowns 4s infinite linear;
 	animation-direction: alternate;
 }
@@ -160,7 +230,7 @@ section #computerguy {
 }
 
 #left-bracket {
-	animation: rb-animoposite 4s infinite linear;
+	animation: lb-anim 4s infinite linear;
 	animation-direction: alternate;
 }
 
@@ -174,11 +244,10 @@ section #computerguy {
 	}
 	100%{
 		transform: translateY(10px);
-
 	}
 }
 
-@keyframes rb-animoposite {
+@keyframes lb-anim {
 	0%{
 		transform: translateY(0px);
 		transform: translateX(0px);
@@ -204,8 +273,8 @@ section #computerguy {
 	}
 }
 
-/*penutup svg animation*/
-
+/*penutup svg animation HOME*/
+/*responsive svg HOME*/
 @media only screen and (max-width: 542px){
 	section #computerguy {
 	width: 50vh;
@@ -213,6 +282,6 @@ section #computerguy {
 	margin-left: 40px;
 	}
 }
-
-
-
+/*penutup responsive svg HOME*/
+/*penutup svg HOME*/
+/*PENUTUP HOME*/

@@ -285,3 +285,64 @@ section #computerguy #man {
 /*penutup responsive svg HOME*/
 /*penutup svg HOME*/
 /*PENUTUP HOME*/
+
+/*ABOUT*/
+#about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#about span {
+	font-size: 40px;
+}
+
+#about .aboutme {
+	width: 400px;
+	margin:30px auto;
+		display: flex;
+	flex-direction: row;
+	position: relative;
+	/*PARENT DARI .authorpict & >descriptionauhor*/
+}
+
+#about .aboutme .authorpict  {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: -70px;
+	background-image: url(../img/akbarangkasa.jpg);
+	border-radius: 50%;
+	background-color: salmon;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+#about .aboutme .descriptionauthor {
+	width: 300px;
+	height: 200px;
+	background-color: salmon;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#about .aboutme .descriptionauthor .relativedsctathr {
+	position: relative;
+	margin-left: 100px;
+	width: 200px;
+	background-color: red;
+	text-align: left;
+	color: yellow;
+}
+
+#about .aboutme .descriptionauthor .relativedsctathr span{
+	color: blue;
+}
+
+/*PENUTUP ABOUT*/

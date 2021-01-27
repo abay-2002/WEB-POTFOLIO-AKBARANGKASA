@@ -143,10 +143,6 @@ section #computerguy {
 }
 /*penutup svg*/
 /*svg animation*/
-section #computerguy #layar {
-	transform: rotate(10deg);
-}
-
 #layar {
 	animation: updowns 4s infinite linear;
 	animation-direction: alternate;
@@ -156,6 +152,44 @@ section #computerguy #layar {
 #right-bracket, #left-bracket {
 	animation: updowns 4s infinite linear;
 	animation-direction: alternate;
+}
+
+#right-bracket {
+	animation: rb-anim 4s infinite linear;
+	animation-direction: alternate;
+}
+
+#left-bracket {
+	animation: rb-animoposite 4s infinite linear;
+	animation-direction: alternate;
+}
+
+@keyframes rb-anim {
+	0%{
+		transform: translateY(0px);
+		transform: translateX(0px);
+	}
+	50%{
+		transform: translate(15px, -10px);
+	}
+	100%{
+		transform: translateY(10px);
+
+	}
+}
+
+@keyframes rb-animoposite {
+	0%{
+		transform: translateY(0px);
+		transform: translateX(0px);
+	}
+	50%{
+		transform: translate(-15px, -10px);
+	}
+	100%{
+		transform: translateY(10px);
+
+	}
 }
 
 @keyframes updowns{
@@ -169,6 +203,7 @@ section #computerguy #layar {
 		transform: translateY(10px);
 	}
 }
+
 /*penutup svg animation*/
 
 @media only screen and (max-width: 542px){

@@ -177,7 +177,7 @@ section .container {
 	left: 0;
 	background: url(../img/wave.png);
 	position: absolute;
-	background-size: 1000px 100px;
+	background-size: 500px 100px;
 }
 
 section .wavy{
@@ -290,11 +290,12 @@ section #computerguy #man {
 /*PENUTUP HOME*/
 
 /*ABOUT*/
+/*LAPTOP VERSION*/
 #about {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 50px auto;
+	margin: 100px auto;
 	text-align: center;
 }
 
@@ -303,14 +304,12 @@ section #computerguy #man {
 }
 
 #about .aboutme {
-/*	width: 400px;
-	margin:30px auto;
-*/		display: flex;
-	width: 200px;
-	height: 400px;
-	flex-direction: column;
+	width: 400px;
+	height: 200px; 	
+	margin: auto;
+	display: flex;
+	flex-direction: row;
 	position: relative;
-	margin: 10px auto;
 	/*PARENT DARI .authorpict & >descriptionauhor*/
 }
 
@@ -322,30 +321,24 @@ section #computerguy #man {
 	background-image: url(../img/akbarangkasa.jpg);
 	border-radius: 50%;
 	background-color: salmon;
-	
 	position: absolute;
-/*	top: 0;
-	left: 0;*/
-	/*z-index: 8888;*/
+	top: 0;
+	left: 0;
 }
 
 #about .aboutme .descriptionauthor {
-/*	width: 300px;
-	height: 200px;*/
-	width: 200px;
-	height: 300px;
-	margin-top: 100px;
+	width: 300px;
+	height: 200px;
 	background-color: salmon;
 	position: absolute;
 	z-index: -999;
-/*	top: 0;
-	right: 0;*/
+	top: 0;
+	right: 0;
 }
 
 #about .aboutme .descriptionauthor .relativedsctathr {
 	position: relative;
-	margin-top: 100px;
-	/*margin-left: 100px;*/
+	margin-left: 100px;
 	width: 200px;
 	background-color: red;
 	text-align: left;
@@ -354,6 +347,71 @@ section #computerguy #man {
 
 #about .aboutme .descriptionauthor .relativedsctathr span{
 	color: yellow;
+}
+/*MOBILE VERSION ABOUT*/
+@media only screen and (max-width: 730px ){
+	#about {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 100px auto;
+		text-align: center;
+	}
+	#about span {
+		font-size: 40px;
+	}
+
+	#about .aboutme {
+	/*	width: 400px;
+		margin:30px auto;
+	*/		display: flex;
+		width: 200px;
+		height: 400px;
+		flex-direction: column;
+		position: relative;
+		margin: auto;
+		/*PARENT DARI .authorpict & >descriptionauhor*/
+	}
+
+	#about .aboutme .authorpict  {
+		width: 200px;
+		height: 200px;
+		background-size: cover;
+		background-position: -70px;
+		background-image: url(../img/akbarangkasa.jpg);
+		border-radius: 50%;
+		background-color: salmon;
+		position: absolute;
+	/*	top: 0;
+		left: 0;*/
+		/*z-index: 8888;*/
+	}
+
+	#about .aboutme .descriptionauthor {
+	/*	width: 300px;
+		height: 200px;*/
+		width: 200px;
+		height: 300px;
+		margin-top: 100px;
+		background-color: salmon;
+		position: absolute;
+		z-index: -999;
+	/*	top: 0;
+		right: 0;*/
+	}
+
+	#about .aboutme .descriptionauthor .relativedsctathr {
+		position: relative;
+		margin: 100px auto;
+		width: 200px;
+		background-color: red;
+		text-align: left;
+		color: yellow;
+	}
+
+	#about .aboutme .descriptionauthor .relativedsctathr span{
+		color: yellow;
+	}
 }
 
 /*PENUTUP ABOUT*/

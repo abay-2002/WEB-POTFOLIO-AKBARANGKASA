@@ -169,10 +169,6 @@ section .container {
 	margin-top: 70px;
 }
 /*PENUTUP HOME TEXT*/
-
-
-
-
 /*wavy animation HOME*/
 .wavy {
 	width: 100%;
@@ -200,24 +196,40 @@ section .wavy{
 /*penutup wavy animation HOME*/
 /*penutup wavy background HOME*/
 /*svg*/
+section .computerguywrap {
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	top: 50px;
+	position: relative;
+	text-align: center;
+/*	background-color: salmon;
+*/}
+
 section #computerguy {
-	width: 60vh;
-	margin-top: -150px;
-	margin-left: 100px;
-}
+	width: 300px;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	margin: auto;
+/*	background-color: green;
+*/}
 section #computerguy #man {
 	animation: dudeanim 4s infinite steps(900);
 	transform-origin: center;
 	transform-box:fill-box;
 }
-/* @keyframes dudeanim {
- 	0%{
- 		transform: rotateZ(0deg);
- 	}
- 	100%{
- 		transform: rotateZ(360deg);
- 	}
- }*/
+
+/*responsive svg HOME*/
+/*@media only screen and (max-width: 542px){
+	section #computerguy {
+	width: 50vh;
+	margin-top: -210px;
+	margin-left: 40px;
+	}
+}*/
+/*penutup responsive svg HOME*/
+
 /*svg animation HOME*/
 #layar {
 	animation: updowns 4s infinite linear;
@@ -274,15 +286,6 @@ section #computerguy #man {
 }
 
 /*penutup svg animation HOME*/
-/*responsive svg HOME*/
-@media only screen and (max-width: 542px){
-	section #computerguy {
-	width: 50vh;
-	margin-top: -210px;
-	margin-left: 40px;
-	}
-}
-/*penutup responsive svg HOME*/
 /*penutup svg HOME*/
 /*PENUTUP HOME*/
 

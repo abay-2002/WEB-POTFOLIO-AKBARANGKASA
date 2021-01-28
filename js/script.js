@@ -6,5 +6,7 @@ $(document).ready(function(){
     $(document).ready(function(){
      $('.sidenav').sidenav();
     });
-
+    $('.authorpict').click(function(){
+    	$('.descriptionauthor').toggleClass('descriptionauthormuncul');
+    });
 });

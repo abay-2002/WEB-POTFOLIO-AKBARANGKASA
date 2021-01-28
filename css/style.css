@@ -289,6 +289,7 @@ section #computerguy #man {
 /*penutup svg HOME*/
 /*PENUTUP HOME*/
 
+
 /*ABOUT*/
 /*LAPTOP VERSION*/
 #about {
@@ -396,9 +397,26 @@ section #computerguy #man {
 		background-color: salmon;
 		position: absolute;
 		z-index: -999;
+		display: none;
+
 	/*	top: 0;
 		right: 0;*/
 	}
+
+	#about .aboutme .descriptionauthormuncul {
+	/*	width: 300px;
+		height: 200px;*/
+		width: 200px;
+		height: 300px;
+		margin-top: 100px;
+		background-color: salmon;
+		position: absolute;
+		z-index: -999;
+		display: block;
+
+	/*	top: 0;
+		right: 0;*/
+	}	
 
 	#about .aboutme .descriptionauthor .relativedsctathr {
 		position: relative;

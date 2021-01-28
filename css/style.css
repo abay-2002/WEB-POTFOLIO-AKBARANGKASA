@@ -300,11 +300,14 @@ section #computerguy #man {
 }
 
 #about .aboutme {
-	width: 400px;
+/*	width: 400px;
 	margin:30px auto;
-		display: flex;
-	flex-direction: row;
+*/		display: flex;
+	width: 200px;
+	height: 400px;
+	flex-direction: column;
 	position: relative;
+	margin: 10px auto;
 	/*PARENT DARI .authorpict & >descriptionauhor*/
 }
 
@@ -318,23 +321,28 @@ section #computerguy #man {
 	background-color: salmon;
 	
 	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 9999;
+/*	top: 0;
+	left: 0;*/
+	/*z-index: 8888;*/
 }
 
 #about .aboutme .descriptionauthor {
-	width: 300px;
-	height: 200px;
+/*	width: 300px;
+	height: 200px;*/
+	width: 200px;
+	height: 300px;
+	margin-top: 100px;
 	background-color: salmon;
 	position: absolute;
-	top: 0;
-	right: 0;
+	z-index: -999;
+/*	top: 0;
+	right: 0;*/
 }
 
 #about .aboutme .descriptionauthor .relativedsctathr {
 	position: relative;
-	margin-left: 100px;
+	margin-top: 100px;
+	/*margin-left: 100px;*/
 	width: 200px;
 	background-color: red;
 	text-align: left;
@@ -342,7 +350,7 @@ section #computerguy #man {
 }
 
 #about .aboutme .descriptionauthor .relativedsctathr span{
-	color: blue;
+	color: yellow;
 }
 
 /*PENUTUP ABOUT*/

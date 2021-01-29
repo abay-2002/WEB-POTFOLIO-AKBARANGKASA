@@ -16,5 +16,7 @@ $(document).ready(function(){
     $('.authorpict').click(function(){
     	$('.descriptionauthor').toggleClass('descriptionauthormuncul')
     	$('.authorpict').toggleClass('authorpictmuncul')
+        $('#clickme').toggleClass('clickmemobile')
+
     });
 });

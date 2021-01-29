@@ -413,8 +413,9 @@ section #computerguy #man {
 		flex-direction: column;
 		justify-content: center;
 		margin: 100px auto;
-		text-align: center;
+		text-align: center; 
 	}
+
 	#about span {
 		font-size: 40px;
 	}
@@ -521,16 +522,42 @@ section #computerguy #man {
 		left: 0;
 		display: block;
 		z-index: -99999;
+		font-weight: bold;
+		font-size: 30px;
+		transition: .3s;
+		/*animation: arrowanim 1s linear infinite;*/
 	}
+
+		#about .aboutme .clickmemobile {
+		position: relative;
+		text-align: center;
+		top:0;
+		width: 0;
+		height: 0;
+		margin:100px auto;
+		right: 0;
+		font-size: 0;
+		left: 0;
+		display: block;
+		z-index: -99999;
+		font-weight: bold;
+		font-size: 30px;
+		color: green;
+		transition: .2s;
+		display: none !important;
+
+		/*animation: arrowanim 1s linear infinite;*/
+	}
+
 	#about .aboutme #clickme img {
 		position: absolute;
 		text-align: center;
-		top:-70px;
+		top:-60px;
 		right: 0;
 		left: 0;
 		margin: auto;
-		width: 50px;
-		animation: arrowanim 5s linear infinite;	
+		width: 38px;
+		animation: arrowanim 1s linear infinite;	
 		display: block;
 		z-index: -99999;
 	}
@@ -540,7 +567,7 @@ section #computerguy #man {
 			transform: translateY(0);
 		}
 		50%{
-			transform: translateY(15px);
+			transform: translateY(4px);
 		}
 		100%{
 			transform: translateY(0);

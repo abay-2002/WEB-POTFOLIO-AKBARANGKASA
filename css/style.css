@@ -32,7 +32,7 @@ nav .mainnavlist {
 	margin-right: -90px;
 }
 
-/*costumcolor mainnavbar*/
+/*nav costumcolor mainnavbar*/
 .costumcolor {
 	background-color: #7289da;
 }
@@ -302,6 +302,8 @@ section #computerguy #man {
 
 #about span {
 	font-size: 40px;
+	color: #23272a;
+	margin: 24px auto;
 }
 
 #about .aboutme {
@@ -341,8 +343,8 @@ section #computerguy #man {
 	position: relative;
 	margin-left: 100px;
 	width: 200px;
-	background-color: red;
-	text-align: left;
+/*	background-color: red;
+*/	text-align: left;
 	color: yellow;
 }
 
@@ -365,7 +367,7 @@ section #computerguy #man {
 	#about .aboutme {
 	/*	width: 400px;
 		margin:30px auto;
-	*/		display: flex;
+	*/	display: flex;
 		width: 200px;
 		height: 400px;
 		flex-direction: column;
@@ -388,17 +390,49 @@ section #computerguy #man {
 		/*z-index: 8888;*/
 	}
 
+	#about .aboutme .authorpict  {
+		width: 200px;
+		height: 200px;
+		background-size: cover;
+		background-position: -70px;
+		background-image: url(../img/akbarangkasa.jpg);
+		border-radius: 50%;
+		background-color: salmon;
+		position: absolute;
+		box-shadow: 0 5px 5px 0 rgba(0,0,0,.4);
+		transition: .3s;
+	/*	top: 0;
+		left: 0;*/
+		/*z-index: 8888;*/
+	}
+
+	#about .aboutme .authorpictmuncul  {
+		width: 200px;
+		height: 200px;
+		background-size: cover;
+		background-position: -70px;
+		background-image: url(../img/akbarangkasa.jpg);
+		border-radius: 50%;
+		background-color: salmon;
+		position: absolute;
+		box-shadow: none;
+		transition: .3s;
+	/*	top: 0;
+		left: 0;*/
+		/*z-index: 8888;*/
+	}
+
 	#about .aboutme .descriptionauthor {
 	/*	width: 300px;
 		height: 200px;*/
 		width: 200px;
-		height: 300px;
+		height: 0;
 		margin-top: 100px;
-		background-color: salmon;
+		background-color: #7289da;
 		position: absolute;
 		z-index: -999;
-		display: none;
-
+		transition: .3s;
+		overflow: hidden;
 	/*	top: 0;
 		right: 0;*/
 	}
@@ -409,10 +443,12 @@ section #computerguy #man {
 		width: 200px;
 		height: 300px;
 		margin-top: 100px;
-		background-color: salmon;
+		background-color: #7289da;
 		position: absolute;
 		z-index: -999;
 		display: block;
+		transition: .3s;
+		border-bottom-left-radius:25px;
 
 	/*	top: 0;
 		right: 0;*/
@@ -422,13 +458,18 @@ section #computerguy #man {
 		position: relative;
 		margin: 100px auto;
 		width: 200px;
-		background-color: red;
-		text-align: left;
-		color: yellow;
+		text-align: center;
 	}
 
 	#about .aboutme .descriptionauthor .relativedsctathr span{
-		color: yellow;
+		color: #fff;
+		margin: 0;
+	}
+
+	#about .aboutme .descriptionauthor .relativedsctathr p {
+		margin: 5px;
+		color: #fff;
+
 	}
 }
 

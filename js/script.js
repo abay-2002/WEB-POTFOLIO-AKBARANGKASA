@@ -6,7 +6,9 @@ $(document).ready(function(){
     $(document).ready(function(){
      $('.sidenav').sidenav();
     });
+    // untuk mobile
     $('.authorpict').click(function(){
-    	$('.descriptionauthor').toggleClass('descriptionauthormuncul');
+    	$('.descriptionauthor').toggleClass('descriptionauthormuncul')
+    	$('.authorpict').toggleClass('authorpictmuncul')
     });
 });

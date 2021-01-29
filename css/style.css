@@ -316,6 +316,14 @@ section #computerguy #man {
 	/*PARENT DARI .authorpict & >descriptionauhor*/
 }
 
+#about .aboutme #clickme  {
+	display: none;
+}
+
+#about .aboutme #clickme img {
+	display: none;
+}
+
 #about .aboutme .authorpict  {
 	width: 200px;
 	height: 200px;
@@ -412,17 +420,15 @@ section #computerguy #man {
 	}
 
 	#about .aboutme {
-	/*	width: 400px;
-		margin:30px auto;
-	*/	display: flex;
+		display: flex;
 		width: 200px;
 		height: 400px;
 		flex-direction: column;
 		position: relative;
-		margin: auto;
-		/*PARENT DARI .authorpict & >descriptionauhor*/
+		/*PARENT DARI .authorpict & >descriptionauhor & #clickme*/
 	}
 
+	
 	#about .aboutme .authorpict  {
 		width: 200px;
 		height: 200px;

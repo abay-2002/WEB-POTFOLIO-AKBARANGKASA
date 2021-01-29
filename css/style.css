@@ -326,31 +326,78 @@ section #computerguy #man {
 	background-color: salmon;
 	position: absolute;
 	top: 0;
+	left: 25%;
+	transition: .3s;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,.5);
+}
+
+#about .aboutme .authorpictdesktop  {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: -70px;
+	background-image: url(../img/akbarangkasa.jpg);
+	border-radius: 50%;
+	background-color: salmon;
+	position: absolute;
+	top: 0;
 	left: 0;
+	transition: .3s;
+	box-shadow: none;
 }
 
 #about .aboutme .descriptionauthor {
-	width: 300px;
-	height: 200px;
-	background-color: salmon;
+	width: 0;
+	height: 0;
+	background-color: #7289da;
 	position: absolute;
 	z-index: -999;
 	top: 0;
 	right: 0;
+	overflow: hidden;
+	transition: .3s;
+}
+
+#about .aboutme .descriptionauthordesktop {
+	width: 300px;
+	height: 200px;
+	background-color: #7289da;
+	position: absolute;
+	z-index: -999;
+	top: 0;
+	right: 0;
+	transition: .3s;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 25px;
 }
 
 #about .aboutme .descriptionauthor .relativedsctathr {
 	position: relative;
 	margin-left: 100px;
+	width: 0;
+	text-align: left;
+	overflow: hidden;
+	transition: .3s;
+}
+
+#about .aboutme .descriptionauthor .relativedsctathrdesktop {
+	position: relative;
+	margin-left: 100px;
 	width: 200px;
 /*	background-color: red;
 */	text-align: left;
-	color: yellow;
+	transition: .3s;
+
 }
 
-#about .aboutme .descriptionauthor .relativedsctathr span{
-	color: yellow;
+#about .aboutme .descriptionauthor .relativedsctathr span,p{
+	color: #fff;
+	margin: 15px;
 }
+
+/*penutup device version*/
+
+
 /*MOBILE VERSION ABOUT*/
 @media only screen and (max-width: 730px ){
 	#about {
@@ -385,24 +432,10 @@ section #computerguy #man {
 		border-radius: 50%;
 		background-color: salmon;
 		position: absolute;
-	/*	top: 0;
-		left: 0;*/
-		/*z-index: 8888;*/
-	}
-
-	#about .aboutme .authorpict  {
-		width: 200px;
-		height: 200px;
-		background-size: cover;
-		background-position: -70px;
-		background-image: url(../img/akbarangkasa.jpg);
-		border-radius: 50%;
-		background-color: salmon;
-		position: absolute;
 		box-shadow: 0 5px 5px 0 rgba(0,0,0,.4);
 		transition: .3s;
-	/*	top: 0;
-		left: 0;*/
+		top: 0;
+		left: 0 !important;
 		/*z-index: 8888;*/
 	}
 
@@ -448,8 +481,7 @@ section #computerguy #man {
 		z-index: -999;
 		display: block;
 		transition: .3s;
-		border-bottom-left-radius:25px;
-
+		border-bottom-left-radius: 25px;
 	/*	top: 0;
 		right: 0;*/
 	}	

@@ -6,6 +6,12 @@ $(document).ready(function(){
     $(document).ready(function(){
      $('.sidenav').sidenav();
     });
+    // untuk device/laptop
+    $('.authorpict').click(function(){
+        $('.descriptionauthor').toggleClass('descriptionauthordesktop')
+        $('.authorpict').toggleClass('authorpictdesktop')
+        $('.relativedsctathr').toggleClass('relativedsctathrdesktop')
+    });
     // untuk mobile
     $('.authorpict').click(function(){
     	$('.descriptionauthor').toggleClass('descriptionauthormuncul')

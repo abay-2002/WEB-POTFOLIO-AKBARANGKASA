@@ -428,7 +428,6 @@ section #computerguy #man {
 		/*PARENT DARI .authorpict & >descriptionauhor & #clickme*/
 	}
 
-	
 	#about .aboutme .authorpict  {
 		width: 200px;
 		height: 200px;
@@ -508,6 +507,44 @@ section #computerguy #man {
 		margin: 5px;
 		color: #fff;
 
+	}
+
+	#about .aboutme #clickme {
+		position: relative;
+		text-align: center;
+		top:200px;
+		width: 200px;
+		height: 200px;
+		margin:100px auto;
+		right: 0;
+		font-size: 20px;
+		left: 0;
+		display: block;
+		z-index: -99999;
+	}
+	#about .aboutme #clickme img {
+		position: absolute;
+		text-align: center;
+		top:-70px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		width: 50px;
+		animation: arrowanim 5s linear infinite;	
+		display: block;
+		z-index: -99999;
+	}
+
+	@keyframes arrowanim{
+		0%{
+			transform: translateY(0);
+		}
+		50%{
+			transform: translateY(15px);
+		}
+		100%{
+			transform: translateY(0);
+		}
 	}
 }
 

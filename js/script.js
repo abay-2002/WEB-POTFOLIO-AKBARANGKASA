@@ -11,12 +11,13 @@ $(document).ready(function(){
         $('.descriptionauthor').toggleClass('descriptionauthordesktop')
         $('.authorpict').toggleClass('authorpictdesktop')
         $('.relativedsctathr').toggleClass('relativedsctathrdesktop')
+        $('#clickme').toggleClass('clickmedesktop')
     });
+
     // untuk mobile
     $('.authorpict').click(function(){
     	$('.descriptionauthor').toggleClass('descriptionauthormuncul')
     	$('.authorpict').toggleClass('authorpictmuncul')
         $('#clickme').toggleClass('clickmemobile')
-
     });
 });

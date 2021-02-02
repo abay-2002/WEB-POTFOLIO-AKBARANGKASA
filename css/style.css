@@ -316,14 +316,6 @@ section #computerguy #man {
 	/*PARENT DARI .authorpict & >descriptionauhor*/
 }
 
-#about .aboutme #clickme  {
-	display: none;
-}
-
-#about .aboutme #clickme img {
-	display: none;
-}
-
 #about .aboutme .authorpict  {
 	width: 200px;
 	height: 200px;
@@ -379,6 +371,48 @@ section #computerguy #man {
 	border-bottom-right-radius: 25px;
 }
 
+#about .aboutme #clickme  {
+	position: relative;
+	top:40%;
+	left:80%;
+	z-index: -9999;
+}
+
+#about .aboutme .clickmedesktop  {
+	position: relative;
+	top:40%;
+	left:80%;
+	z-index: -9999;
+	transition: .3s !important;
+	display: none !important; 
+}
+
+#about .aboutme #clickme img {
+	position: absolute;
+	top:10%;
+	left: 25%;
+	width: 25px;
+	transform: rotateZ(-90deg);
+	animation:animrowdesktop 2s linear infinite;
+}
+
+@keyframes animrowdesktop{
+	0%{
+		transform: none;
+		transform: rotate(-90deg);
+	}
+	50%{
+		transform: translateX(-5px) rotate(-90deg);
+	}
+	75%{
+		transform: translateX(5px) rotate(-90deg);
+	}
+	100%{
+		transform: none;
+		transform: rotate(-90deg);
+	}
+}
+
 #about .aboutme .descriptionauthor .relativedsctathr {
 	position: relative;
 	margin-left: 100px;
@@ -395,7 +429,6 @@ section #computerguy #man {
 /*	background-color: red;
 */	text-align: left;
 	transition: .3s;
-
 }
 
 #about .aboutme .descriptionauthor .relativedsctathr span,p{
@@ -517,7 +550,7 @@ section #computerguy #man {
 		width: 200px;
 		height: 200px;
 		margin:100px auto;
-		right: 0;
+		right: 10px;
 		font-size: 20px;
 		left: 0;
 		display: block;
@@ -534,10 +567,11 @@ section #computerguy #man {
 		top:0;
 		width: 0;
 		height: 0;
+		top:200px;
 		margin:100px auto;
 		right: 0;
-		font-size: 0;
 		left: 0;
+		font-size: 0;
 		display: block;
 		z-index: -99999;
 		font-weight: bold;
@@ -545,7 +579,6 @@ section #computerguy #man {
 		color: green;
 		transition: .2s;
 		display: none !important;
-
 		/*animation: arrowanim 1s linear infinite;*/
 	}
 

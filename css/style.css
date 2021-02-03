@@ -307,7 +307,7 @@ section #computerguy #man {
 }
 
 #about .aboutme {
-	width: 400px;
+	width: 500px;
 	height: 200px; 	
 	margin: auto;
 	display: flex;
@@ -326,7 +326,7 @@ section #computerguy #man {
 	background-color: salmon;
 	position: absolute;
 	top: 0;
-	left: 25%;
+	left: 30%;
 	transition: .3s;
 	box-shadow: 0 5px 5px 0 rgba(0,0,0,.5);
 }
@@ -359,7 +359,7 @@ section #computerguy #man {
 }
 
 #about .aboutme .descriptionauthordesktop {
-	width: 300px;
+	width: 400px;
 	height: 200px;
 	background-color: #7289da;
 	position: absolute;
@@ -425,16 +425,29 @@ section #computerguy #man {
 #about .aboutme .descriptionauthor .relativedsctathrdesktop {
 	position: relative;
 	margin-left: 100px;
-	width: 200px;
+	width: 300px;
 /*	background-color: red;
 */	text-align: left;
 	transition: .3s;
 }
 
-#about .aboutme .descriptionauthor .relativedsctathr span,p{
+#about .aboutme .descriptionauthor .relativedsctathr span{
 	color: #fff;
-	margin: 15px;
+	display: inline-block;
+	margin-top: 10px !important;
+	margin-left: 55px !important;
+	margin-bottom: 0 !important;
+	font-size: 20px;
 }
+
+#about .aboutme .descriptionauthor .relativedsctathr p {
+	color: #fff;
+	font-size: 12px;
+	text-align: left !important;
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+}
+
 
 /*penutup device version*/
 
@@ -450,19 +463,20 @@ section #computerguy #man {
 	}
 
 	#about span {
-		font-size: 40px;
+		font-size: 42px;
 	}
 
 	#about .aboutme {
 		display: flex;
 		width: 200px;
-		height: 400px;
+		height: 500px;
 		flex-direction: column;
 		position: relative;
 		/*PARENT DARI .authorpict & >descriptionauhor & #clickme*/
 	}
 
 	#about .aboutme .authorpict  {
+		position: absolute;
 		width: 200px;
 		height: 200px;
 		background-size: cover;
@@ -470,15 +484,16 @@ section #computerguy #man {
 		background-image: url(../img/akbarangkasa.jpg);
 		border-radius: 50%;
 		background-color: salmon;
-		position: absolute;
 		box-shadow: 0 5px 5px 0 rgba(0,0,0,.4);
 		transition: .3s;
 		top: 0;
 		left: 0 !important;
+		/*kita tidak bisa memberi bottom karena position absolute = non static dan sudah mempunyai element saudara yang juga non statis yaitu id='clickme' dan .descriptionauthor*/
 		/*z-index: 8888;*/
 	}
 
 	#about .aboutme .authorpictmuncul  {
+		position: absolute;
 		width: 200px;
 		height: 200px;
 		background-size: cover;
@@ -486,7 +501,6 @@ section #computerguy #man {
 		background-image: url(../img/akbarangkasa.jpg);
 		border-radius: 50%;
 		background-color: salmon;
-		position: absolute;
 		box-shadow: none;
 		transition: .3s;
 	/*	top: 0;
@@ -513,8 +527,9 @@ section #computerguy #man {
 	/*	width: 300px;
 		height: 200px;*/
 		width: 200px;
-		height: 300px;
+		height: 400px;
 		margin-top: 100px;
+		bottom: 0;
 		background-color: #7289da;
 		position: absolute;
 		z-index: -999;
@@ -529,18 +544,25 @@ section #computerguy #man {
 		position: relative;
 		margin: 100px auto;
 		width: 200px;
-		text-align: center;
+
 	}
 
 	#about .aboutme .descriptionauthor .relativedsctathr span{
 		color: #fff;
-		margin: 0;
+		display: inline-block;
+		margin-top: 10px !important;
+		margin-bottom: 0 !important;
+		margin-left: 28px !important;
+		margin-right: auto !important;
+		font-size: 18px;
 	}
 
 	#about .aboutme .descriptionauthor .relativedsctathr p {
-		margin: 5px;
 		color: #fff;
-
+		font-size: 14px !important;
+		text-align: left !important;
+		display: inline-block;
+		margin: 10px 10px 10px 10px;
 	}
 
 	#about .aboutme #clickme {
@@ -612,7 +634,7 @@ section #computerguy #man {
 /*SKILLS*/
 #skillswrap {
 	display: block;
-	margin: 100px auto;
+	margin: 200px auto;
 /*	background-color: salmon;
 */	text-align: center;
 	overflow: hidden;
@@ -620,9 +642,19 @@ section #computerguy #man {
 
 #skillswrap span {
 	display: block;
-	font-size: 40px;
+	font-size: 70px;
+	height: 80px;
 	color: #23272a;
 	margin: auto;
+	font-weight: bold;
+	position: relative;
+}
+
+#skillswrap span img {
+	width: 70px;
+	position: absolute;
+	top:15%;
+	right: 28%;
 }
 
 #skillswrap .skills {

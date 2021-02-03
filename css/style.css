@@ -607,5 +607,50 @@ section #computerguy #man {
 		}
 	}
 }
-
 /*PENUTUP ABOUT*/
+
+/*SKILLS*/
+#skillswrap {
+	margin: 100px auto;
+/*	background-color: salmon;
+*/	text-align: center;
+	overflow: hidden;
+}
+
+#skillswrap span {
+	display: block;
+	font-size: 40px;
+	color: #23272a;
+	margin: auto;
+}
+
+#skillswrap .skills {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+#skillswrap .skills .sklicon {
+	margin: 50px auto;
+}
+
+#skillswrap .skills .sklicon img {
+/*	background-color: green;
+*/	margin: auto;
+	width: 120px;
+	animation: skillsanim 3s linear infinite;
+}
+
+@keyframes skillsanim {
+	0%{
+		transform: none;
+	}
+	50%{
+		transform: scale(.9);
+	}
+	100%{
+		transform: none;
+	}
+}
+
+/*PENUTUP SKILLS*/

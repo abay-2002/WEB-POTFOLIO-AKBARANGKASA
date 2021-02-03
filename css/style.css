@@ -611,6 +611,7 @@ section #computerguy #man {
 
 /*SKILLS*/
 #skillswrap {
+	display: block;
 	margin: 100px auto;
 /*	background-color: salmon;
 */	text-align: center;
@@ -626,7 +627,7 @@ section #computerguy #man {
 
 #skillswrap .skills {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	margin: auto;
 }
 
@@ -650,6 +651,188 @@ section #computerguy #man {
 	}
 	100%{
 		transform: none;
+	}
+}
+/*responsive skills desktop*/
+@media only screen and (max-width: 730px){
+	/*SKILLS*/
+	#skillswrap {
+		margin: 100px auto;
+		display: none!important;
+	/*	background-color: salmon;
+	*/	text-align: center;
+		overflow: hidden;
+	}
+
+	#skillswrap span {
+		display: block;
+		font-size: 40px;
+		color: #23272a;
+		margin: auto;
+	}
+
+	#skillswrap .skills {
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+	}
+
+	#skillswrap .skills .sklicon {
+		margin: 50px auto;
+	}
+
+	#skillswrap .skills .sklicon img {
+	/*	background-color: green;
+	*/	margin: auto;
+		width: 120px;
+		animation: skillsanim 3s linear infinite;
+	}
+
+	@keyframes skillsanim {
+		0%{
+			transform: none;
+		}
+		50%{
+			transform: scale(.9);
+		}
+		100%{
+			transform: none;
+		}
+	}
+}
+
+/*responsive skills MOBILE*/
+	#skillswrapmobile {
+		display: none!important;
+		margin: 100px auto;
+	/*	background-color: salmon;
+	*/	text-align: center;
+		overflow: hidden;
+	}
+
+	#skillswrapmobile span {
+		display: block;
+		font-size: 40px;
+		color: #23272a;
+		margin: auto;
+	}
+
+	#skillswrapmobile .skills {
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+	}
+
+	#skillswrapmobile .skills .sklicon {
+		margin: 50px auto;
+	}
+
+	#skillswrapmobile .skills .sklicon img {
+	/*	background-color: green;
+	*/	margin: auto;
+		width: 120px;
+		animation: skillsanim 3s linear infinite;
+	}
+
+	@keyframes skillsanim {
+		0%{
+			transform: none;
+		}
+		50%{
+			transform: scale(.9);
+		}
+		100%{
+			transform: none;
+		}
+	}
+/*SKILLS*/
+	#skillswrapmobile {
+		display: none;
+		margin: 100px auto;
+	/*	background-color: salmon;
+	*/	text-align: center;
+		overflow: hidden;
+	}
+
+	#skillswrapmobile span {
+		display: block;
+		font-size: 40px;
+		color: #23272a;
+		margin: auto;
+	}
+
+	#skillswrapmobile .skills {
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+	}
+
+	#skillswrapmobile .skills .sklicon {
+		margin: 50px auto;
+	}
+
+	#skillswrapmobile .skills .sklicon img {
+	/*	background-color: green;
+	*/	margin: auto;
+		width: 120px;
+		animation: skillsanim 3s linear infinite;
+	}
+
+	@keyframes skillsanim {
+		0%{
+			transform: none;
+		}
+		50%{
+			transform: scale(.9);
+		}
+		100%{
+			transform: none;
+		}
+	}
+@media only screen and (max-width: 730px){
+	/*SKILLS*/
+	#skillswrapmobile {
+		display: block !important;
+		margin: 100px auto;
+	/*	background-color: salmon;
+	*/	text-align: center;
+		overflow: hidden;
+	}
+
+	#skillswrapmobile span {
+		display: block;
+		font-size: 40px;
+		color: #23272a;
+		margin: auto;
+	}
+
+	#skillswrapmobile .skills {
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+	}
+
+	#skillswrapmobile .skills .sklicon {
+		margin: 50px auto;
+	}
+
+	#skillswrapmobile .skills .sklicon img {
+	/*	background-color: green;
+	*/	margin: auto;
+		width: 120px;
+		animation: skillsanim 3s linear infinite;
+	}
+
+	@keyframes skillsanim {
+		0%{
+			transform: none;
+		}
+		50%{
+			transform: scale(.9);
+		}
+		100%{
+			transform: none;
+		}
 	}
 }
 

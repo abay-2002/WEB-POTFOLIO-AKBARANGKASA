@@ -631,9 +631,83 @@ section #computerguy #man {
 }
 /*PENUTUP ABOUT*/
 
+
+.container {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
 /*SKILLS*/
+/*BACKGROUND BG SKILLS DAN .bgwrapforskillswrap*/
+.bgskills {
+	display: block;
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+
+.bgskills .bgskillswavetop {
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	position: absolute;
+	background-image: url(../img/waveuntukskillstop.png);
+	background-size: cover;
+}
+
+.bgskills .bgskillswavebottom {
+	width: 100%;
+	height: 100px;
+	top: -100px;
+	right: 0;
+	position: absolute;
+	background-image: url(../img/waveuntukskillsbottom.png);
+	background-size: cover;
+}
+
+.bgwrapforskillswrap {
+	display: block;
+	background-color: #e3e3e3;
+}
+/*responsive bg skills*/
+@media only screen and (max-width: 730px){
+	.bgskills {
+		display: none !important;
+		width: 100%;
+		height: 150px;
+		position: relative;
+	}
+
+	.bgskills .bgskillswavetop {
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+		position: absolute;
+		background-image: url(../img/waveuntukskillstop.png);
+		background-size: cover;
+	}
+
+	.bgskills .bgskillswavebottom {
+		width: 100%;
+		height: 100px;
+		top: -100px;
+		right: 0;
+		position: absolute;
+		background-image: url(../img/waveuntukskillsbottom.png);
+		background-size: cover;
+	}
+
+	.bgwrapforskillswrap {
+		display: none !important;
+		background-color: #e3e3e3;
+	}
+}
+/*PENUTUP RESPONSIVE BGSKILLS*/
+/*PENUTUP BACKGROUND BG SKILLS DAN .bgwrapforskillswrap*/
+/*SKILLSWRAP*/
 #skillswrap {
 	display: block;
+	height: 650px;
 	margin: 200px auto;
 /*	background-color: salmon;
 */	text-align: center;
@@ -709,6 +783,7 @@ section #computerguy #man {
 	#skillswrap {
 		display: none!important;
 		margin: 200px auto;
+		height: 650px;
 	/*	background-color: salmon;
 	*/	text-align: center;
 		overflow: hidden;

@@ -638,6 +638,31 @@ section #computerguy #man {
 /*	background-color: salmon;
 */	text-align: center;
 	overflow: hidden;
+	position: relative;
+}
+
+#skillswrap #skillstitlewrapperdesktop{
+	position: relative;
+	width: 500px;
+	margin: auto;
+	height: 80px;
+}
+
+#skillswrap #skillstitlewrapperdesktop span {
+	top: 0;
+	right: 0;
+	left: 0;
+	color: #23272a;
+	font-size: 70px;
+	position: absolute;
+
+}
+
+#skillswrap #skillstitlewrapperdesktop img {
+	position: absolute;	
+	top: 5px;
+	width: 75px;
+	right: 65px;
 }
 
 #skillswrap span {
@@ -648,13 +673,6 @@ section #computerguy #man {
 	margin: auto;
 	font-weight: bold;
 	position: relative;
-}
-
-#skillswrap span img {
-	width: 70px;
-	position: absolute;
-	top:15%;
-	right: 28%;
 }
 
 #skillswrap .skills {
@@ -686,21 +704,49 @@ section #computerguy #man {
 	}
 }
 /*responsive skills desktop*/
+/*APABILA MAXWIDTH 730PX MAKA DISPLAY NONE*/
 @media only screen and (max-width: 730px){
-	/*SKILLS*/
 	#skillswrap {
-		margin: 100px auto;
 		display: none!important;
+		margin: 200px auto;
 	/*	background-color: salmon;
 	*/	text-align: center;
 		overflow: hidden;
+		position: relative;
+	}
+
+	#skillswrap #skillstitlewrapperdesktop{
+		position: relative;
+		width: 500px;
+		margin: auto;
+		height: 80px;
+	}
+
+	#skillswrap #skillstitlewrapperdesktop span {
+		top: 0;
+		right: 0;
+		left: 0;
+		color: #23272a;
+		font-size: 70px;
+		position: absolute;
+
+	}
+
+	#skillswrap #skillstitlewrapperdesktop img {
+		position: absolute;	
+		top: 5px;
+		width: 75px;
+		right: 65px;
 	}
 
 	#skillswrap span {
 		display: block;
-		font-size: 40px;
+		font-size: 70px;
+		height: 80px;
 		color: #23272a;
 		margin: auto;
+		font-weight: bold;
+		position: relative;
 	}
 
 	#skillswrap .skills {
@@ -730,68 +776,45 @@ section #computerguy #man {
 		100%{
 			transform: none;
 		}
-	}
+	}	
 }
 
-/*responsive skills MOBILE*/
-	#skillswrapmobile {
-		display: none!important;
-		margin: 100px auto;
-	/*	background-color: salmon;
-	*/	text-align: center;
-		overflow: hidden;
-	}
 
-	#skillswrapmobile span {
-		display: block;
-		font-size: 40px;
-		color: #23272a;
-		margin: auto;
-	}
+/*PENUTUP RESPONSIVE SKILLS DESKTOP*/
+/*responsive skills MOBILE NONE*/
+/*SKILLS MBILE*/
+/*APABILA WIDTHNYA DIATAS 730PX MAKA HIDE*/
 
-	#skillswrapmobile .skills {
-		display: flex;
-		flex-direction: row;
-		margin: auto;
-	}
-
-	#skillswrapmobile .skills .sklicon {
-		margin: 50px auto;
-	}
-
-	#skillswrapmobile .skills .sklicon img {
-	/*	background-color: green;
-	*/	margin: auto;
-		width: 120px;
-		animation: skillsanim 3s linear infinite;
-	}
-
-	@keyframes skillsanim {
-		0%{
-			transform: none;
-		}
-		50%{
-			transform: scale(.9);
-		}
-		100%{
-			transform: none;
-		}
-	}
-/*SKILLS*/
+	/*SKILLS MOBILE*/
 	#skillswrapmobile {
 		display: none;
 		margin: 100px auto;
 	/*	background-color: salmon;
 	*/	text-align: center;
 		overflow: hidden;
+		position: relative;
 	}
 
-	#skillswrapmobile span {
-		display: block;
-		font-size: 40px;
-		color: #23272a;
-		margin: auto;
+	#skillswrapmobile #skillstitlewrappermobile{
+		position: relative;
+		height: 80px;
 	}
+
+	#skillswrapmobile #skillstitlewrappermobile span{
+		position: absolute;
+		right: 0;
+		left: 0;
+		color: #23272a;
+		font-size: 70px;
+	}
+
+	#skillswrapmobile #skillstitlewrappermobile img{
+		position: absolute;
+		top: 5px;
+		width: 75px;
+		right: 90px;
+	}
+
 
 	#skillswrapmobile .skills {
 		display: flex;
@@ -821,22 +844,40 @@ section #computerguy #man {
 			transform: none;
 		}
 	}
+
+/*responsive skills untuk mobile BLOCK*/
+/*APABILA WIDTH 730PX MAKA DISPLAY BLOCK*/
 @media only screen and (max-width: 730px){
-	/*SKILLS*/
+	/*SKILLS MOBILE*/
 	#skillswrapmobile {
 		display: block !important;
 		margin: 100px auto;
 	/*	background-color: salmon;
 	*/	text-align: center;
 		overflow: hidden;
+		position: relative;
 	}
 
-	#skillswrapmobile span {
-		display: block;
-		font-size: 40px;
-		color: #23272a;
-		margin: auto;
+	#skillswrapmobile #skillstitlewrappermobile{
+		position: relative;
+		height: 80px;
 	}
+
+	#skillswrapmobile #skillstitlewrappermobile span{
+		position: absolute;
+		right: 0;
+		left: 0;
+		color: #23272a;
+		font-size: 70px;
+	}
+
+	#skillswrapmobile #skillstitlewrappermobile img{
+		position: absolute;
+		top: 5px;
+		width: 75px;
+		right: 90px;
+	}
+
 
 	#skillswrapmobile .skills {
 		display: flex;
@@ -868,4 +909,68 @@ section #computerguy #man {
 	}
 }
 
+@media only screen and (max-width: 560px){
+	/*SKILLS MOBILE*/
+	#skillswrapmobile {
+		display: block !important;
+		margin: 100px auto;
+	/*	background-color: salmon;
+	*/	text-align: center;
+		overflow: hidden;
+		position: relative;
+	}
+
+	#skillswrapmobile #skillstitlewrappermobile{
+		position: relative;
+		height: 80px;
+	}
+
+	#skillswrapmobile #skillstitlewrappermobile span{
+		position: absolute;
+		right: 0;
+		left: 0;
+		color: #23272a;
+		font-size: 70px;
+	}
+
+	#skillswrapmobile #skillstitlewrappermobile img{
+		position: absolute;
+		top: 5px;
+		width: 75px;
+		right: 90px;
+		display: none;
+	}
+
+
+	#skillswrapmobile .skills {
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+	}
+
+	#skillswrapmobile .skills .sklicon {
+		margin: 50px auto;
+	}
+
+	#skillswrapmobile .skills .sklicon img {
+	/*	background-color: green;
+	*/	margin: auto;
+		width: 120px;
+		animation: skillsanim 3s linear infinite;
+	}
+
+	@keyframes skillsanim {
+		0%{
+			transform: none;
+		}
+		50%{
+			transform: scale(.9);
+		}
+		100%{
+			transform: none;
+		}
+	}
+}
+
+/*PENUTUP RESPONSIVE SKILLS MOBILE*/
 /*PENUTUP SKILLS*/

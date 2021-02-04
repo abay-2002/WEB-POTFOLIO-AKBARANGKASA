@@ -704,6 +704,78 @@ section #computerguy #man {
 }
 /*PENUTUP RESPONSIVE BGSKILLS*/
 /*PENUTUP BACKGROUND BG SKILLS DAN .bgwrapforskillswrap*/
+
+
+
+/*BACKGROUND BG SKILLS DAN .bgwrapforskillswrapmobile*/
+.bgskillsmobile {
+	display: none !important;
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+
+.bgskillsmobile .bgskillswavetopmobile {
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	position: absolute;
+	background-image: url(../img/waveuntukskillstop.png);
+	background-size: cover;
+}
+
+.bgskillsmobile .bgskillswavebottommobile {
+	width: 100%;
+	height: 100px;
+	top: -100px;
+	right: 0;
+	position: absolute;
+	background-image: url(../img/waveuntukskillsbottom.png);
+	background-size: cover;
+}
+
+.bgwrapforskillswrapmobile {
+	display: none !important;
+	background-color: #e3e3e3;
+}	
+/*RESPONSIVE BACKGROUND BG SKILLS DAN .bgwrapforskillswrapmobile */
+@media only screen and (max-width: 730px){
+	.bgskillsmobile {
+		display: block !important;
+		width: 100%;
+		height: 150px;
+		position: relative;
+	}
+
+	.bgskillsmobile .bgskillswavetopmobile {
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+		position: absolute;
+		background-image: url(../img/waveuntukskillstop.png);
+		background-size: cover;
+	}
+
+	.bgskillsmobile .bgskillswavebottommobile {
+		width: 100%;
+		height: 100px;
+		top: -100px;
+		right: 0;
+		position: absolute;
+		background-image: url(../img/waveuntukskillsbottom.png);
+		background-size: cover;
+	}
+
+	.bgwrapforskillswrapmobile {
+		display: block !important;
+		background-color: #e3e3e3;
+	}	
+}
+/*PENUTUP RESPONSIVE BACKGROUND BG SKILLS DAN .bgwrapforskillswrapmobile */
+/*PENUTUP BACKGROUND BG SKILLS DAN .bgwrapforskillswrapmobile*/
+
+
+
 /*SKILLSWRAP*/
 #skillswrap {
 	display: block;
@@ -862,6 +934,7 @@ section #computerguy #man {
 
 	/*SKILLS MOBILE*/
 	#skillswrapmobile {
+		height: 1100px;
 		display: none;
 		margin: 100px auto;
 	/*	background-color: salmon;
@@ -925,6 +998,7 @@ section #computerguy #man {
 @media only screen and (max-width: 730px){
 	/*SKILLS MOBILE*/
 	#skillswrapmobile {
+		height: 1100px;
 		display: block !important;
 		margin: 100px auto;
 	/*	background-color: salmon;
@@ -987,6 +1061,7 @@ section #computerguy #man {
 @media only screen and (max-width: 560px){
 	/*SKILLS MOBILE*/
 	#skillswrapmobile {
+		height: 1100px;
 		display: block !important;
 		margin: 100px auto;
 	/*	background-color: salmon;

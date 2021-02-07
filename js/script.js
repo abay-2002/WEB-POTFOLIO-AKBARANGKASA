@@ -6,15 +6,15 @@ $(document).ready(function(){
     $(document).ready(function(){
      $('.sidenav').sidenav();
     });
-    // untuk device/laptop
+    // untuk device/laptop about
     $('.authorpict').click(function(){
-        $('.descriptionauthor').toggleClass('descriptionauthordesktop')
         $('.authorpict').toggleClass('authorpictdesktop')
+        $('.descriptionauthor').toggleClass('descriptionauthordesktop')
         $('.relativedsctathr').toggleClass('relativedsctathrdesktop')
         $('#clickme').toggleClass('clickmedesktop')
     });
 
-    // untuk mobile
+    // untuk mobile about
     $('.authorpict').click(function(){
     	$('.descriptionauthor').toggleClass('descriptionauthormuncul')
     	$('.authorpict').toggleClass('authorpictmuncul')

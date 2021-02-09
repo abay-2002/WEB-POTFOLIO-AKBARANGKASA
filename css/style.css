@@ -666,6 +666,7 @@ section #computerguy #man {
 	display: block;
 	background-color: #e3e3e3;
 }
+/*bgskills*/
 /*responsive bg skills*/
 @media only screen and (max-width: 730px){
 	.bgskills {
@@ -1124,3 +1125,34 @@ section #computerguy #man {
 /*INI ADALAH PEMBUKA CERTIFCATE*/
 
 /*INI ADALAH PENUTUP CERTIFICATE*/
+/*INI ADALAH FOOTER*/
+footer{
+	width: 100%;
+	height: 300px;
+	background-color: salmon;
+	text-align: center;
+}
+
+footer #thx {
+	line-height: 300px;
+	font-size: 58px;	
+}
+
+@media only screen and (max-width: 480px){
+	footer #thx {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	footer #thx {
+		font-size: 38px;
+	}
+}
+
+@media only screen and (max-width: 380px){
+	footer #thx {
+		font-size: 30px;
+	}
+}
+/*INI ADALAH PENUTUP FOOTER*/

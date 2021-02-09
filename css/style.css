@@ -708,7 +708,7 @@ section #computerguy #man {
 .bgskillsmobile {
 	display: none !important;
 	width: 100%;
-	height: 150px;
+	height: 100px;
 	position: relative;
 }
 
@@ -740,7 +740,7 @@ section #computerguy #man {
 	.bgskillsmobile {
 		display: block !important;
 		width: 100%;
-		height: 150px;
+		height: 100px;
 		position: relative;
 	}
 
@@ -1122,14 +1122,5 @@ section #computerguy #man {
 /*PENUTUP RESPONSIVE SKILLS MOBILE*/
 /*PENUTUP SKILLS*/
 /*INI ADALAH PEMBUKA CERTIFCATE*/
-#mycertificate {
-	text-align: center;
-	margin: 10px auto;
-}
 
-#mycertificate span {
-	font-size: 50px;
-	color: #23272a;
-	margin: auto;
-}
 /*INI ADALAH PENUTUP CERTIFICATE*/

@@ -714,7 +714,7 @@ section #computerguy #man {
 .bgskillsmobile {
 	display: none !important;
 	width: 100%;
-	height: 20px;
+	height: 100px;
 	position: relative;
 }
 
@@ -746,7 +746,7 @@ section #computerguy #man {
 	.bgskillsmobile {
 		display: block !important;
 		width: 100%;
-		height: 20px;
+		height: 100px;
 		position: relative;
 	}
 

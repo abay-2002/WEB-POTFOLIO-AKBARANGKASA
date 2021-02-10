@@ -16,8 +16,8 @@ $(document).ready(function(){
 
     // untuk mobile about
     $('.authorpict').click(function(){
-    	$('.descriptionauthor').toggleClass('descriptionauthormuncul')
     	$('.authorpict').toggleClass('authorpictmuncul')
+        $('.descriptionauthor').toggleClass('descriptionauthormuncul')
         $('#clickme').toggleClass('clickmemobile')
     });
 });

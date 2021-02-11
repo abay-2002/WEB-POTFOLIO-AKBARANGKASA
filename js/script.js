@@ -20,4 +20,9 @@ $(document).ready(function(){
         $('.descriptionauthor').toggleClass('descriptionauthormuncul')
         $('#clickme').toggleClass('clickmemobile')
     });
+
+    // carousel
+    $(document).ready(function(){
+        $('.carousel').carousel();
+      });
 });

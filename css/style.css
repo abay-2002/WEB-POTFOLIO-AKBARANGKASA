@@ -1717,7 +1717,7 @@ section #computerguy #man {
 		position: relative;
 	}
 	/*permisahtitlewrapper*/
-	
+
 	/*myproject*/
 	#project #myproject {
 		display: flex;
@@ -1820,7 +1820,7 @@ footer #wrapperft {
 /*	background-color: salmon;
 */}
 
-footer #wrapperft span {
+footer #wrapperft #thx {
 	display: block;
 	font-size: 88px;
 }
@@ -1837,16 +1837,17 @@ footer #wrapperft ul li {
 	display: inline-block;
 }
 
-footer #wrapperft ul li a {
+footer #wrapperft ul li a span {
 	color: #23272a;
 	font-size: 14px;
 }
 
-footer #wrapperft ul li img {
+footer #wrapperft ul li a img {
 	width: 12px;
 	color: #23272a;
 	margin-left: 4px;
 	margin-right: 4px;
+	display: inline-block !important;
 }
 /*pemisahfooterwrapperft*/
 footer #smltxtftwrapper {
@@ -1869,8 +1870,8 @@ footer #smltxtft {
 		padding-top: 100px;
 		position: relative;
 		overflow: hidden;
-		/*background-color: green;*/
-	/*	background-image: linear-gradient(white,black);*/
+	/*	background-color: green;
+	*//*	background-image: linear-gradient(white,black);*/
 	}
 	/*ftdecornonstatic*/
 	footer .ftdecor3 { /*ungu*/
@@ -1915,13 +1916,13 @@ footer #smltxtft {
 	/*footerwrapperft*/ 
 	footer #wrapperft {
 		position: relative;
-		margin-bottom: 50px;
+		margin-bottom: 70px;
 	/*	background-color: salmon;
 	*/}
 
-	footer #wrapperft span {
+	footer #wrapperft #thx {
 		display: block;
-		font-size: 58px;
+		font-size: 68px;
 	}
 
 	footer #wrapperft #ftmascot {
@@ -1936,16 +1937,17 @@ footer #smltxtft {
 		display: inline-block;
 	}
 
-	footer #wrapperft ul li a {
+	footer #wrapperft ul li a span {
 		color: #23272a;
 		font-size: 14px;
 	}
 
-	footer #wrapperft ul li img {
+	footer #wrapperft ul li a img {
 		width: 12px;
 		color: #23272a;
 		margin-left: 4px;
 		margin-right: 4px;
+		display: inline-block !important;
 	}
 	/*pemisahfooterwrapperft*/
 	footer #smltxtftwrapper {
@@ -1969,8 +1971,8 @@ footer #smltxtft {
 		padding-top: 100px;
 		position: relative;
 		overflow: hidden;
-		/*background-color: green;*/
-	/*	background-image: linear-gradient(white,black);*/
+	/*	background-color: green;
+	*//*	background-image: linear-gradient(white,black);*/
 	}
 	/*ftdecornonstatic*/
 	footer .ftdecor3 { /*ungu*/
@@ -2015,13 +2017,13 @@ footer #smltxtft {
 	/*footerwrapperft*/ 
 	footer #wrapperft {
 		position: relative;
-		margin-bottom: 50px;
+		margin-bottom: 70px;
 	/*	background-color: salmon;
 	*/}
 
-	footer #wrapperft span {
+	footer #wrapperft #thx {
 		display: block;
-		font-size: 48px;
+		font-size: 58px;
 	}
 
 	footer #wrapperft #ftmascot {
@@ -2036,17 +2038,18 @@ footer #smltxtft {
 		display: inline-block;
 	}
 
-	footer #wrapperft ul li a {
+	footer #wrapperft ul li a span {
 		color: #23272a;
-		font-size: 8px;
-		display: none;
+		font-size: 14px;
+		display: none !important;
 	}
 
-	footer #wrapperft ul li img {
+	footer #wrapperft ul li a img {
 		width: 12px;
 		color: #23272a;
 		margin-left: 4px;
 		margin-right: 4px;
+		display: inline-block !important;
 	}
 	/*pemisahfooterwrapperft*/
 	footer #smltxtftwrapper {
@@ -2060,18 +2063,18 @@ footer #smltxtft {
 	}
 }
 
-@media only screen and (max-width: 280px){
+@media only screen and (max-width: 411px){
 	/*INI ADALAH FOOTER*/
 	footer {
 		width: 100%;
 		text-align: center;
 		box-sizing: border-box;
 		background-color: rgba(255,255,255,1);
-		padding-top: 50px;
+		padding-top: 100px;
 		position: relative;
 		overflow: hidden;
-		/*background-color: green;*/
-	/*	background-image: linear-gradient(white,black);*/
+	/*	background-color: green;
+	*//*	background-image: linear-gradient(white,black);*/
 	}
 	/*ftdecornonstatic*/
 	footer .ftdecor3 { /*ungu*/
@@ -2116,17 +2119,17 @@ footer #smltxtft {
 	/*footerwrapperft*/ 
 	footer #wrapperft {
 		position: relative;
-		margin-bottom: 50px;
+		margin-bottom: 70px;
 	/*	background-color: salmon;
 	*/}
 
-	footer #wrapperft span {
+	footer #wrapperft #thx {
 		display: block;
-		font-size: 28px;
+		font-size: 46px;
 	}
 
 	footer #wrapperft #ftmascot {
-		font-size: 13px !important;
+		font-size: 23px !important;
 	}
 
 	footer #wrapperft ul {
@@ -2137,16 +2140,18 @@ footer #smltxtft {
 		display: inline-block;
 	}
 
-	footer #wrapperft ul li a {
+	footer #wrapperft ul li a span {
 		color: #23272a;
-		font-size: 10px;
+		font-size: 14px;
+		display: none !important;
 	}
 
-	footer #wrapperft ul li img {
+	footer #wrapperft ul li a img {
 		width: 12px;
 		color: #23272a;
 		margin-left: 4px;
 		margin-right: 4px;
+		display: inline-block !important;
 	}
 	/*pemisahfooterwrapperft*/
 	footer #smltxtftwrapper {

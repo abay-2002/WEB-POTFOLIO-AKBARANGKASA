@@ -930,8 +930,9 @@ section #computerguy #man {
 	}	
 }
 
-
 /*PENUTUP RESPONSIVE SKILLS DESKTOP*/
+
+
 /*responsive skills MOBILE NONE*/
 /*SKILLS MBILE*/
 /*APABILA WIDTHNYA DIATAS 730PX MAKA HIDE*/
@@ -1134,6 +1135,7 @@ section #computerguy #man {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 120px;
 }
 
 #project span {
@@ -1147,7 +1149,6 @@ section #computerguy #man {
 	margin-top: 18px;
 	display: block;
 	font-size: 18px;
-	font-weight: bold;
 }
 /*myproject*/
 #project #myproject {
@@ -1173,6 +1174,7 @@ section #computerguy #man {
 #project #myproject .clientproject .carousel {
 /*	background-color: salmon;
 */	width: 800px;
+	height: 370px;
 }
 
 #project #myproject .clientproject .carousel .carousel-item{
@@ -1230,6 +1232,8 @@ section #computerguy #man {
 	#project #myproject .clientproject .carousel {
 	/*	background-color: salmon;
 	*/	width: 600px;
+		height: 370px;
+
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item{
@@ -1398,11 +1402,12 @@ section #computerguy #man {
 	#project #myproject .clientproject .carousel {
 	/*	background-color: salmon;
 	*/	width: 400px;
+		height: 250px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item{
 		width: 350px;
-		margin-top: -80px;
+		margin-top: -10px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item img {
@@ -1454,11 +1459,12 @@ section #computerguy #man {
 	#project #myproject .clientproject .carousel {
 	/*	background-color: salmon;
 	*/	width: 350px;
+		height: 300px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item{
 		width: 340px;
-		margin-top: -80px;
+		margin-top: -10px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item img {
@@ -1510,11 +1516,12 @@ section #computerguy #man {
 	#project #myproject .clientproject .carousel {
 	/*	background-color: salmon;
 	*/	width: 324px;
+		height: 200px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item{
 		width: 302px;
-		margin-top: -80px;
+		margin-top: 10px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item img {
@@ -1522,7 +1529,7 @@ section #computerguy #man {
 	}	
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 320px){
 	#project {
 		text-align: center;
 		display: flex;
@@ -1565,12 +1572,13 @@ section #computerguy #man {
 	/*project carousel*/
 	#project #myproject .clientproject .carousel {
 	/*	background-color: salmon;
-	*/	width: 300px;
+	*/	width: 280px;
+		height: 200px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item{
-		width: 280px;
-		margin-top: -80px;
+		width: 260px;
+		margin-top: 10px;
 	}
 
 	#project #myproject .clientproject .carousel .carousel-item img {
@@ -1580,11 +1588,408 @@ section #computerguy #man {
 /*penutup RESPONSIVE project carousel*/
 /*INI ADALAH PENUTUP PROJECT*/
 
+
 /*INI ADALAH PEMBUKA CERTIFCATE*/
 
 /*INI ADALAH PENUTUP CERTIFICATE*/
 /*INI ADALAH FOOTER*/
+footer {
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: rgba(255,255,255,1);
+	padding-top: 100px;
+	position: relative;
+	overflow: hidden;
+/*	background-color: green;
+*//*	background-image: linear-gradient(white,black);*/
+}
+/*ftdecornonstatic*/
+footer .ftdecor3 { /*ungu*/
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #ad3fe8;
+	right: 0;
+	left: -400px;
+	top:5;
+	margin: auto;
+	filter: blur(50px) opacity(80%);
+	border-radius: 50%;
+}
 
+footer .ftdecor1 { /*hijau*/
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #89fa43;
+	left: 0;
+	right: -400px;
+	margin: auto;
+	top:10;
+	filter: blur(50px) opacity(80%);
+	border-radius: 50%;
+}
+
+footer .ftdecor2 { /*biru*/
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #43b7fa;
+	right: 0;
+	left: 0;
+	top:5;
+	margin: auto;
+	filter: blur(50px) opacity(80%);
+	border-radius: 50%;
+}
+/*pemisahftdecornonstatic*/
+/*footerwrapperft*/ 
+footer #wrapperft {
+	position: relative;
+	margin-bottom: 70px;
+/*	background-color: salmon;
+*/}
+
+footer #wrapperft span {
+	display: block;
+	font-size: 88px;
+}
+
+footer #wrapperft #ftmascot {
+	font-size: 43px !important;
+}
+
+footer #wrapperft ul {
+	margin: 0px;
+}
+
+footer #wrapperft ul li {
+	display: inline-block;
+}
+
+footer #wrapperft ul li a {
+	color: #23272a;
+	font-size: 14px;
+}
+
+footer #wrapperft ul li img {
+	width: 12px;
+	color: #23272a;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+/*pemisahfooterwrapperft*/
+footer #smltxtftwrapper {
+	position: relative;
+	margin: auto;
+	/*background-color: salmon;*/
+}
+
+footer #smltxtft {
+	font-size: 12px;
+}
+
+@media only screen and (max-width: 580px){
+	/*INI ADALAH FOOTER*/
+	footer {
+		width: 100%;
+		text-align: center;
+		box-sizing: border-box;
+		background-color: rgba(255,255,255,1);
+		padding-top: 100px;
+		position: relative;
+		overflow: hidden;
+		/*background-color: green;*/
+	/*	background-image: linear-gradient(white,black);*/
+	}
+	/*ftdecornonstatic*/
+	footer .ftdecor3 { /*ungu*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #ad3fe8;
+		right: 0;
+		left: -400px;
+		top:5;
+		margin: auto;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+
+	footer .ftdecor1 { /*hijau*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #89fa43;
+		left: 0;
+		right: -400px;
+		margin: auto;
+		top:10;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+
+	footer .ftdecor2 { /*biru*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #43b7fa;
+		right: 0;
+		left: 0;
+		top:5;
+		margin: auto;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+	/*pemisahftdecornonstatic*/
+	/*footerwrapperft*/ 
+	footer #wrapperft {
+		position: relative;
+		margin-bottom: 50px;
+	/*	background-color: salmon;
+	*/}
+
+	footer #wrapperft span {
+		display: block;
+		font-size: 58px;
+	}
+
+	footer #wrapperft #ftmascot {
+		font-size: 33px !important;
+	}
+
+	footer #wrapperft ul {
+		margin: 0px;
+	}
+
+	footer #wrapperft ul li {
+		display: inline-block;
+	}
+
+	footer #wrapperft ul li a {
+		color: #23272a;
+		font-size: 14px;
+	}
+
+	footer #wrapperft ul li img {
+		width: 12px;
+		color: #23272a;
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	/*pemisahfooterwrapperft*/
+	footer #smltxtftwrapper {
+		position: relative;
+		margin: auto;
+		/*background-color: salmon;*/
+	}
+
+	footer #smltxtft {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	/*INI ADALAH FOOTER*/
+	footer {
+		width: 100%;
+		text-align: center;
+		box-sizing: border-box;
+		background-color: rgba(255,255,255,1);
+		padding-top: 100px;
+		position: relative;
+		overflow: hidden;
+		/*background-color: green;*/
+	/*	background-image: linear-gradient(white,black);*/
+	}
+	/*ftdecornonstatic*/
+	footer .ftdecor3 { /*ungu*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #ad3fe8;
+		right: 0;
+		left: -400px;
+		top:5;
+		margin: auto;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+
+	footer .ftdecor1 { /*hijau*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #89fa43;
+		left: 0;
+		right: -400px;
+		margin: auto;
+		top:10;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+
+	footer .ftdecor2 { /*biru*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #43b7fa;
+		right: 0;
+		left: 0;
+		top:5;
+		margin: auto;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+	/*pemisahftdecornonstatic*/
+	/*footerwrapperft*/ 
+	footer #wrapperft {
+		position: relative;
+		margin-bottom: 50px;
+	/*	background-color: salmon;
+	*/}
+
+	footer #wrapperft span {
+		display: block;
+		font-size: 48px;
+	}
+
+	footer #wrapperft #ftmascot {
+		font-size: 23px !important;
+	}
+
+	footer #wrapperft ul {
+		margin: 0px;
+	}
+
+	footer #wrapperft ul li {
+		display: inline-block;
+	}
+
+	footer #wrapperft ul li a {
+		color: #23272a;
+		font-size: 8px;
+		display: none;
+	}
+
+	footer #wrapperft ul li img {
+		width: 12px;
+		color: #23272a;
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	/*pemisahfooterwrapperft*/
+	footer #smltxtftwrapper {
+		position: relative;
+		margin: auto;
+		/*background-color: salmon;*/
+	}
+
+	footer #smltxtft {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 280px){
+	/*INI ADALAH FOOTER*/
+	footer {
+		width: 100%;
+		text-align: center;
+		box-sizing: border-box;
+		background-color: rgba(255,255,255,1);
+		padding-top: 100px;
+		position: relative;
+		overflow: hidden;
+		/*background-color: green;*/
+	/*	background-image: linear-gradient(white,black);*/
+	}
+	/*ftdecornonstatic*/
+	footer .ftdecor3 { /*ungu*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #ad3fe8;
+		right: 0;
+		left: -400px;
+		top:5;
+		margin: auto;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+
+	footer .ftdecor1 { /*hijau*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #89fa43;
+		left: 0;
+		right: -400px;
+		margin: auto;
+		top:10;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+
+	footer .ftdecor2 { /*biru*/
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		background-color: #43b7fa;
+		right: 0;
+		left: 0;
+		top:5;
+		margin: auto;
+		filter: blur(50px) opacity(80%);
+		border-radius: 50%;
+	}
+	/*pemisahftdecornonstatic*/
+	/*footerwrapperft*/ 
+	footer #wrapperft {
+		position: relative;
+		margin-bottom: 50px;
+	/*	background-color: salmon;
+	*/}
+
+	footer #wrapperft span {
+		display: block;
+		font-size: 28px;
+	}
+
+	footer #wrapperft #ftmascot {
+		font-size: 13px !important;
+	}
+
+	footer #wrapperft ul {
+		margin: 0px;
+	}
+
+	footer #wrapperft ul li {
+		display: inline-block;
+	}
+
+	footer #wrapperft ul li a {
+		color: #23272a;
+		font-size: 10px;
+	}
+
+	footer #wrapperft ul li img {
+		width: 12px;
+		color: #23272a;
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	/*pemisahfooterwrapperft*/
+	footer #smltxtftwrapper {
+		position: relative;
+		margin: auto;
+		/*background-color: salmon;*/
+	}
+
+	footer #smltxtft {
+		font-size: 12px;
+	}
+}
 /*INI ADALAH PENUTUP FOOTER*/
 
 

@@ -8,6 +8,8 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <!-- mycss -->
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- favicon -->
+      <link rel="shortcut icon" type="img/png" href="img/akbarangkasalogofavicon.png">
       <!-- cdn Jquery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <!--Let browser know website is optimized for mobile-->
@@ -30,10 +32,10 @@
               <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
               <ul class="right hide-on-med-and-down mainnavlist">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Tentang</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#prjct">Projects</a></li>
                 <li><a href="#">Certificate</a></li>
                 <!-- Dropdown Trigger -->
                 <li><a class="dropdown-trigger" href="#!" data-target="dropdown-main">Hubungi Saya<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -56,10 +58,10 @@
         <div class="containerakbarlogosdnav">
           <img src="img/akbarangkasalogowhite.png">
         </div>
-        <li class="costumlist"><a href="#">Home</a></li>
-        <li><a href="#">Tentang</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
+        <li class="costumlist"><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skillsmobile">Skills</a></li>
+        <li><a href="#prjct">Projects</a></li>
         <li><a href="#">Certificate</a></li>
         <li><a class="dropdown-trigger" href="#!" data-target="dropdown-sidenav">Hubungi Saya<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
@@ -73,7 +75,7 @@
       </ul>
       <!-- penutup nav -->
       <!-- home -->
-      <section>
+      <section id="home">
         <div class="hometxt" data-aos="zoom-in" data-aos-duration="1100">
           <h2 class="line anim-typewriter">Hello World!</h2>
           <h4>Selamat Datang</h4>
@@ -142,7 +144,7 @@
           </div><!-- CONTAINER ABOUT -->
 
           <!-- AKBAR-ANGKASA SKILLS -->
-          <div class="bungkusskillsforaos" data-aos='fade-up'>
+          <div class="bungkusskillsforaos" data-aos='fade-up' id="skills">
             <div class="bgskills">
               <div class="bgskillswavetop"></div>
             </div>
@@ -175,7 +177,7 @@
           <!-- PENUTUP AKBAR-ANGKASA SKILLS -->
           
           <!-- AKBAR-ANGKASA SKILLS MOBILE-->
-          <div class="bungkusskillsforaos" data-aos='fade-up'>  
+          <div class="bungkusskillsforaos" data-aos='fade-up' id="skillsmobile">  
          
             <div class="bgskillsmobile">
               <div class="bgskillswavetopmobile"></div>
@@ -214,6 +216,7 @@
           <!-- PENUTUP AKBAR-ANGKASA SKILLS -->
           
           <!-- PROJECTS -->
+          <div id="prjct"></div>
           <div id="project">
             <div id="projecttitlewrapper">
               <span data-aos="zoom-in">Project</span>
@@ -253,7 +256,9 @@
           
 
           <!-- PEMBUKA CERTIFICATION -->
-
+          <div id="mycertificate">
+            
+          </div>
           <!-- PENUTUP CERTIFICATION -->
           <!-- FOOTER -->
           <footer><!-- relative -->

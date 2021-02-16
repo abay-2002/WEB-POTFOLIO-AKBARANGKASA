@@ -1760,8 +1760,575 @@ section #computerguy #man {
 
 
 /*INI ADALAH PEMBUKA CERTIFCATE*/
+#mycertificate {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 120px;
+/*	background-color: salmon;
+*/}
 
+#mycertificate #certificatetitlewrapper {
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+#mycertificate #certificatetitlewrapper span {
+	display: block;
+	font-size: 70px;
+	font-weight: bold;
+	color: #23272a;
+	position: relative;
+}
+
+#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+	position: absolute;
+	top:-7px;
+	left: -17px;
+/*	z-index: -999;
+*/}
+
+#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+	width: 50px;
+	transform: rotate(-35deg);
+}
+/*pemisah certificatetitle*/
+#mycertificate #certificatewrapper {
+	margin: auto;
+}
+
+#mycertificate #certificatewrapper .carousel {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+/*	background-color: green;	
+*/}
+
+#mycertificate #certificatewrapper .carousel .carousel-item {
+	width: 600px;
+	margin-top: -100px;
+}
+/*pemisah modal*/
+.modal {
+	margin-top: 10%;
+}
+
+.jelasmodal {
+	margin-top: 15px;
+}
+
+.jelasmodalsml {
+	margin-top: 20px;
+	font-size: 10px;
+}
+
+.jelasmodalsml a {
+	margin-top: 20px;
+	font-size: 10px;
+	color: #f52a2a;
+}
+/*penutup modal*/
+/*responsive certificate*/
+@media only screen and (max-width:860px){
+	/*INI ADALAH PEMBUKA CERTIFCATE*/
+	#mycertificate {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 120px;
+	/*	background-color: salmon;
+	*/}
+
+	#mycertificate #certificatetitlewrapper {
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#mycertificate #certificatetitlewrapper span {
+		display: block;
+		font-size: 70px;
+		font-weight: bold;
+		color: #23272a;
+		position: relative;
+	}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+		position: absolute;
+		top:-7px;
+		left: -17px;
+	/*	z-index: -999;
+	*/}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+		width: 50px;
+		transform: rotate(-35deg);
+	}
+	/*pemisah certificatetitle*/
+	#mycertificate #certificatewrapper {
+		margin: auto;
+	}
+
+	#mycertificate #certificatewrapper .carousel {
+		width: 600px;
+		margin: auto;
+	/*	background-color: green;	
+	*/}
+
+	#mycertificate #certificatewrapper .carousel .carousel-item {
+		width: 400px;
+		margin-top: -100px;
+	}
+	/*pemisah modal*/
+	.modal {
+		margin-top: 10%;
+	}
+
+	.jelasmodal {
+		margin-top: 15px;
+	}
+
+	.jelasmodalsml {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+
+	.jelasmodalsml a {
+		margin-top: 20px;
+		font-size: 10px;
+		color: #f52a2a;
+	}
+}
+
+@media only screen and (max-width:700px){
+	/*INI ADALAH PEMBUKA CERTIFCATE*/
+	#mycertificate {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 120px;
+	/*	background-color: salmon;
+	*/}
+
+	#mycertificate #certificatetitlewrapper {
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#mycertificate #certificatetitlewrapper span {
+		display: block;
+		font-size: 70px;
+		font-weight: bold;
+		color: #23272a;
+		position: relative;
+	}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+		position: absolute;
+		top:-7px;
+		left: -17px;
+	/*	z-index: -999;
+	*/}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+		width: 50px;
+		transform: rotate(-35deg);
+	}
+	/*pemisah certificatetitle*/
+	#mycertificate #certificatewrapper {
+		margin: auto;
+	}
+
+	#mycertificate #certificatewrapper .carousel {
+		width: 500px;
+		margin: auto;
+	/*	background-color: green;	
+	*/}
+
+	#mycertificate #certificatewrapper .carousel .carousel-item {
+		width: 400px;
+		margin-top: -100px;
+	}
+	/*pemisah modal*/
+	.modal {
+		margin-top: 10%;
+	}
+
+	.jelasmodal {
+		margin-top: 15px;
+	}
+
+	.jelasmodalsml {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+
+	.jelasmodalsml a {
+		margin-top: 20px;
+		font-size: 10px;
+		color: #f52a2a;
+	}
+}
+
+@media only screen and (max-width:550px){
+	/*INI ADALAH PEMBUKA CERTIFCATE*/
+	#mycertificate {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 120px;
+	/*	background-color: salmon;
+	*/}
+
+	#mycertificate #certificatetitlewrapper {
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#mycertificate #certificatetitlewrapper span {
+		display: block;
+		font-size: 70px;
+		font-weight: bold;
+		color: #23272a;
+		position: relative;
+	}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+		position: absolute;
+		top:-7px;
+		left: -17px;
+	/*	z-index: -999;
+	*/}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+		width: 50px;
+		transform: rotate(-35deg);
+	}
+	/*pemisah certificatetitle*/
+	#mycertificate #certificatewrapper {
+		margin: auto;
+	}
+
+	#mycertificate #certificatewrapper .carousel {
+		width: 450px;
+		margin: auto;
+	/*	background-color: green;	
+	*/}
+
+	#mycertificate #certificatewrapper .carousel .carousel-item {
+		width: 350px;
+		margin-top: -100px;
+	}
+	/*pemisah modal*/
+	.modal {
+		margin-top: 10%;
+	}
+
+	.jelasmodal {
+		margin-top: 15px;
+	}
+
+	.jelasmodalsml {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+
+	.jelasmodalsml a {
+		margin-top: 20px;
+		font-size: 10px;
+		color: #f52a2a;
+	}
+}
+
+@media only screen and (max-width:495px){
+	/*INI ADALAH PEMBUKA CERTIFCATE*/
+	#mycertificate {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 120px;
+	/*	background-color: salmon;
+	*/}
+
+	#mycertificate #certificatetitlewrapper {
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#mycertificate #certificatetitlewrapper span {
+		display: block;
+		font-size: 70px;
+		font-weight: bold;
+		color: #23272a;
+		position: relative;
+	}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+		position: absolute;
+		top:-7px;
+		left: -17px;
+	/*	z-index: -999;
+	*/}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+		width: 50px;
+		transform: rotate(-35deg);
+	}
+	/*pemisah certificatetitle*/
+	#mycertificate #certificatewrapper {
+		margin: auto;
+	}
+
+	#mycertificate #certificatewrapper .carousel {
+		width: 400px;
+		margin: auto;
+	/*	background-color: green;	
+	*/}
+
+	#mycertificate #certificatewrapper .carousel .carousel-item {
+		width: 350px;
+		margin-top: -100px;
+	}
+	/*pemisah modal*/
+	.modal {
+		margin-top: 10%;
+	}
+
+	.jelasmodal {
+		margin-top: 15px;
+	}
+
+	.jelasmodalsml {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+
+	.jelasmodalsml a {
+		margin-top: 20px;
+		font-size: 10px;
+		color: #f52a2a;
+	}
+}
+
+@media only screen and (max-width:440px){
+	/*INI ADALAH PEMBUKA CERTIFCATE*/
+	#mycertificate {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 120px;
+	/*	background-color: salmon;
+	*/}
+
+	#mycertificate #certificatetitlewrapper {
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#mycertificate #certificatetitlewrapper span {
+		display: block;
+		font-size: 70px;
+		font-weight: bold;
+		color: #23272a;
+		position: relative;
+	}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+		position: absolute;
+		top:-7px;
+		left: -17px;
+	/*	z-index: -999;
+	*/}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+		width: 50px;
+		transform: rotate(-35deg);
+	}
+	/*pemisah certificatetitle*/
+	#mycertificate #certificatewrapper {
+		margin: auto;
+	}
+
+	#mycertificate #certificatewrapper .carousel {
+		width: 350px;
+		margin: auto;
+	/*	background-color: green;	
+	*/}
+
+	#mycertificate #certificatewrapper .carousel .carousel-item {
+		width: 340px;
+		margin-top: -100px;
+	}
+	/*pemisah modal*/
+	.modal {
+		margin-top: 10%;
+	}
+
+	.jelasmodal {
+		margin-top: 15px;
+	}
+
+	.jelasmodalsml {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+
+	.jelasmodalsml a {
+		margin-top: 20px;
+		font-size: 10px;
+		color: #f52a2a;
+	}
+}
+
+@media only screen and (max-width:375px){
+	/*INI ADALAH PEMBUKA CERTIFCATE*/
+	#mycertificate {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 120px;
+	/*	background-color: salmon;
+	*/}
+
+	#mycertificate #certificatetitlewrapper {
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#mycertificate #certificatetitlewrapper span {
+		display: block;
+		font-size: 60px;
+		font-weight: bold;
+		color: #23272a;
+		position: relative;
+	}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+		position: absolute;
+		top:-8px;
+		left: -18px;
+	/*	z-index: -999;
+	*/}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+		width: 50px;
+		transform: rotate(-36deg);
+	}
+	/*pemisah certificatetitle*/
+	#mycertificate #certificatewrapper {
+		margin: auto;
+	}
+
+	#mycertificate #certificatewrapper .carousel {
+		width: 324px;
+		margin: auto;
+	/*	background-color: green;	
+	*/}
+
+	#mycertificate #certificatewrapper .carousel .carousel-item {
+		width: 302px;
+		margin-top: -100px;
+	}
+	/*pemisah modal*/
+	.modal {
+		margin-top: 10%;
+	}
+
+	.jelasmodal {
+		margin-top: 15px;
+	}
+
+	.jelasmodalsml {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+
+	.jelasmodalsml a {
+		margin-top: 20px;
+		font-size: 10px;
+		color: #f52a2a;
+	}
+}
+
+@media only screen and (max-width:320px){
+	/*INI ADALAH PEMBUKA CERTIFCATE*/
+	#mycertificate {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 120px;
+	/*	background-color: salmon;
+	*/}
+
+	#mycertificate #certificatetitlewrapper {
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#mycertificate #certificatetitlewrapper span {
+		display: block;
+		font-size: 50px;
+		font-weight: bold;
+		color: #23272a;
+		position: relative;
+	}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 {
+		position: absolute;
+		top:-5px;
+		left: -10px;
+	/*	z-index: -999;
+	*/}
+
+	#mycertificate #certificatetitlewrapper .crtfcdecor1 img {
+		width: 40px;
+		transform: rotate(-35deg);
+	}
+	/*pemisah certificatetitle*/
+	#mycertificate #certificatewrapper {
+		margin: auto;
+	}
+
+	#mycertificate #certificatewrapper .carousel {
+		width: 280px;
+		margin: auto;
+	/*	background-color: green;	
+	*/}
+
+	#mycertificate #certificatewrapper .carousel .carousel-item {
+		width: 260px;
+		margin-top: -100px;
+	}
+	/*pemisah modal*/
+	.modal {
+		margin-top: 10%;
+	}
+
+	.jelasmodal {
+		margin-top: 15px;
+	}
+
+	.jelasmodalsml {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+
+	.jelasmodalsml a {
+		margin-top: 20px;
+		font-size: 10px;
+		color: #f52a2a;
+	}
+}
 /*INI ADALAH PENUTUP CERTIFICATE*/
+
+
 /*INI ADALAH FOOTER*/
 footer {
 	width: 100%;

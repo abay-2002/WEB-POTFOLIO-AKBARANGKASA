@@ -25,4 +25,12 @@ $(document).ready(function(){
     $(document).ready(function(){
         $('.carousel').carousel();
       });
+
+     $(document).ready(function(){
+    $('.modal').modal();
+  });
+
+$(document).ready(function(){
+    $('.modal').modal();
+  });
 });

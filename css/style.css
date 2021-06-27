@@ -2328,6 +2328,17 @@ section #computerguy #man {
 }
 /*INI ADALAH PENUTUP CERTIFICATE*/
 
+/*mycontact form*/
+form{
+	width: 800px;
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: auto;
+	/*background-color: salmon;*/
+}
+
+/*penutup mycontact form*/
+
 
 /*INI ADALAH FOOTER*/
 footer {

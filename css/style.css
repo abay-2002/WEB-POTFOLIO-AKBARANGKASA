@@ -2338,6 +2338,10 @@ form{
 	/*background-color: salmon;*/
 }
 
+form input {
+	font-family: inherit !important;
+}
+
 form button {
 	cursor: pointer;
 	width: 50%;

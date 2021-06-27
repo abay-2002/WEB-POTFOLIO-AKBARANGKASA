@@ -374,15 +374,29 @@
           
           <!-- Contact me -->
           <form name="contact-form-abay">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required> 
-            <label for="nama">Nama:</label>
-            <input type="text" id="nama" name="nama" required>
-            <label for="handphone">Handphone</label>
-            <input type="text" id="handphone" name="noHandphone" required>
+            <div class="input-field">
+              <label for="nama">Nama</label>
+              <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required> 
+            </div>
+
+            <div class="input-field">
+              <label for="handphone">Handphone</label>
+              <input type="text" id="handphone" name="noHandphone" required>
+            </div>
+
+            <div class="input-field">
+              <label for="pesan">Pesan</label>
+              <textarea id="pesan" name="pesan" required></textarea>
+            </div>
+        
             <button type="submit">Send</button>
           </form>
-          <!-- penutup contact me -->
+          <!-- penutup contac t me -->
 
           <!-- FOOTER -->
           <footer><!-- relative -->
@@ -406,6 +420,7 @@
           </footer>
           <!-- PENUTUP FOOTER -->
 
+      <!-- Javascript for spread -->
       <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwOO8EGiwG_wVBYXlsSY42mdrHaqRs0eWz-iHvQkXjgi9czOMizNPgZTjuV6cBlLmbP/exec'
         const form = document.forms['contact-form-abay']
@@ -417,7 +432,6 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
-
       <!--JavaScript at end of body for optimized loading-->
       <!-- AOS INIT -->
       <script>

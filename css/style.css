@@ -2334,7 +2334,26 @@ form{
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: auto;
+	margin-bottom: 120px;
 	/*background-color: salmon;*/
+}
+
+form button {
+	cursor: pointer;
+	width: 50%;
+	margin: auto;
+	padding: 8px;
+	text-decoration: none;
+	border: none !important;
+	border-radius: 4px;
+}
+
+form textarea {
+	font-family: inherit !important;
+	border: none !important;
+	padding: 8px;
+	padding-left: 0px !important;
+	border-bottom: solid rgba(0, 0, 0, .5) 1px !important;
 }
 
 /*penutup mycontact form*/

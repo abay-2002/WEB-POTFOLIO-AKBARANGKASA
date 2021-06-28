@@ -2359,8 +2359,49 @@ form textarea {
 	padding-left: 0px !important;
 	border-bottom: solid rgba(0, 0, 0, .5) 1px !important;
 }
-
 /*penutup mycontact form*/
+/*penutup contactme popup*/
+#contactMePopUpWrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 9999;
+	transition: .4s;
+}
+
+#contactMePopUpWrapper #dialogBox {
+	position: relative;
+	margin: auto;
+	top: 40%;
+	width: 40%;
+	border-radius: 4px;
+	background-color: #7289da;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	color: rgba(255, 255, 255, 1.0);
+	transition: .3s;
+}
+
+#contactMePopUpWrapper #dialogBox span {
+	margin: 2.5px;
+	margin-top: 0px;
+}
+
+#confirmDialog {
+	width: 40%;
+	margin: auto;
+	border: none !important;
+	cursor: pointer;
+	margin-top: 2.5px;
+}
+
+/*penutup contactme popup*/
+
 
 
 /*INI ADALAH FOOTER*/

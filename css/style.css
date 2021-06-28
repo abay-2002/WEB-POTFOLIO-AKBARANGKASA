@@ -2352,6 +2352,14 @@ form button {
 	border-radius: 4px;
 }
 
+form button:target #contactMePopUpWrapper {
+	transition: 10s;
+}
+
+form button:target #dialogBox {
+	transition: .4s;
+}
+
 form textarea {
 	font-family: inherit !important;
 	border: none !important;
@@ -2369,7 +2377,6 @@ form textarea {
 	bottom: 0;
 	background-color: rgba(0, 0, 0, .5);
 	z-index: 9999;
-	transition: .4s;
 }
 
 #contactMePopUpWrapper #dialogBox {
@@ -2384,7 +2391,6 @@ form textarea {
 	display: flex;
 	flex-direction: column;
 	color: rgba(255, 255, 255, 1.0);
-	transition: .3s;
 }
 
 #contactMePopUpWrapper #dialogBox span {
@@ -2398,6 +2404,7 @@ form textarea {
 	border: none !important;
 	cursor: pointer;
 	margin-top: 2.5px;
+	padding: 2px;
 }
 
 /*penutup contactme popup*/

@@ -2330,7 +2330,7 @@ section #computerguy #man {
 
 /*mycontact form*/
 form{
-	width: 800px;
+	width: 50%;
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: auto;
@@ -2367,6 +2367,7 @@ form textarea {
 	padding-left: 0px !important;
 	border-bottom: solid rgba(0, 0, 0, .5) 1px !important;
 }
+
 /*penutup mycontact form*/
 /*penutup contactme popup*/
 #contactMePopUpWrapper {

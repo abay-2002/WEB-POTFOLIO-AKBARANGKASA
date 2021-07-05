@@ -34,6 +34,7 @@ kirim.addEventListener('click',function(){
 		bungkus.appendChild(contactMePopUpWrapper);
 		confirmDialog.addEventListener('click',function(){
 			bungkus.removeChild(contactMePopUpWrapper);
+		window.location.reload();
 		});
 	}
 });

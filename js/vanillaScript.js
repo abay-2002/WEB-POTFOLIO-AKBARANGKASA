@@ -37,4 +37,3 @@ kirim.addEventListener('click',function(){
 		});
 	}
 });
-

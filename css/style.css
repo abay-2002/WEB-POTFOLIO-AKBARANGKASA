@@ -2338,6 +2338,28 @@ form{
 	/*background-color: salmon;*/
 }
 
+form .wrapperH3 {
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+form .wrapperH3 h3 {
+	font-size: 70px;
+	font-weight: bold;
+	color: #23272a;
+	margin: auto;
+	transform: ;
+}
+
+form .wrapperH3 img {
+	position: absolute;
+	top: -10px;
+	right: 188.3px;
+	transform: rotateZ(45deg);
+}
+
+
 form input {
 	font-family: inherit !important;
 }
@@ -2367,7 +2389,6 @@ form textarea {
 	padding-left: 0px !important;
 	border-bottom: solid rgba(0, 0, 0, .5) 1px !important;
 }
-
 /*penutup mycontact form*/
 /*penutup contactme popup*/
 #contactMePopUpWrapper {

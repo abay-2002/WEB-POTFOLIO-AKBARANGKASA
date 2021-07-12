@@ -2228,8 +2228,9 @@ section #computerguy #man {
 	#mycertificate #certificatewrapper .carousel {
 		width: 324px;
 		margin: auto;
-	/*	background-color: green;	
-	*/}
+	/*	background-color: green;
+	*/
+	}
 
 	#mycertificate #certificatewrapper .carousel .carousel-item {
 		width: 302px;
@@ -2338,27 +2339,32 @@ form{
 	/*background-color: salmon;*/
 }
 
-form .wrapperH3 {
+form .wrapperH2 {
 	position: relative;
 	margin: auto;
 	text-align: center;
 }
 
-form .wrapperH3 h3 {
-	font-size: 70px;
+form .wrapperH2 h2 {
 	font-weight: bold;
 	color: #23272a;
 	margin: auto;
-	transform: ;
 }
 
-form .wrapperH3 img {
+form .wrapperH2 img {
 	position: absolute;
-	top: -10px;
-	right: 188.3px;
-	transform: rotateZ(45deg);
+	top: -12px;
+	right: 140.2px;
 }
 
+@media only screen and (max-width: 700px){
+	form .wrapperH2 img {
+		position: absolute;
+		top: -12px;
+		right: 140.2px;
+		display: none;
+	}		
+}
 
 form input {
 	font-family: inherit !important;
@@ -2389,6 +2395,7 @@ form textarea {
 	padding-left: 0px !important;
 	border-bottom: solid rgba(0, 0, 0, .5) 1px !important;
 }
+
 /*penutup mycontact form*/
 /*penutup contactme popup*/
 #contactMePopUpWrapper {
@@ -2836,6 +2843,7 @@ footer #smltxtft {
 		font-size: 12px;
 	}
 }
+
 /*INI ADALAH PENUTUP FOOTER*/
 /*style css ini ditulis/dibangun, dikembangkan oleh Akbar Angkasa :) instagram: @angkasa_akbar terima kasih telah berkunjung :) github.com/abay-2002*/
 

@@ -2357,7 +2357,7 @@ form .wrapperH2 img {
 	right: 140.2px;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1200px){
 	form .wrapperH2 img {
 		position: absolute;
 		top: -12px;

@@ -2339,32 +2339,32 @@ form{
 	/*background-color: salmon;*/
 }
 
-form .wrapperH2 {
+.wrapperH2 {
 	position: relative;
 	margin: auto;
 	text-align: center;
 }
 
-form .wrapperH2 h2 {
+.wrapperH2 h2 {
 	font-weight: bold;
 	color: #23272a;
 	margin: auto;
 }
-
-form .wrapperH2 img {
+/*
+.wrapperH2 img {
 	position: absolute;
 	top: -12px;
 	right: 140.2px;
 }
 
 @media only screen and (max-width: 1200px){
-	form .wrapperH2 img {
+	.wrapperH2 img {
 		position: absolute;
 		top: -12px;
 		right: 140.2px;
 		display: none;
 	}		
-}
+}*/
 
 form input {
 	font-family: inherit !important;

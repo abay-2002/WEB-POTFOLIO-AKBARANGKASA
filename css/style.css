@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 * {
 	font-family: 'Comfortaa', cursive;
 	margin:0;
@@ -1208,6 +1208,12 @@ section #computerguy #man {
 #project #myproject .clientproject .carousel .carousel-item img {
 	width: 100%;
 }
+
+/*myproject3*/
+.myproject3 {
+	cursor: pointer;
+}
+/*penutup myproject3*/
 /*PENUTUP PROJECT CAROUSEL*/
 
 /*RESPONSIVE PROJECT CAROUSEL*/
@@ -2848,4 +2854,3 @@ footer #smltxtft {
 /*style css ini ditulis/dibangun, dikembangkan oleh Akbar Angkasa :) instagram: @angkasa_akbar terima kasih telah berkunjung :) github.com/abay-2002*/
 
 
-*/

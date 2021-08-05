@@ -1,0 +1,285 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+	color:rgba(0, 0, 0, .8);
+	border-style: none;
+	text-decoration: none;
+}
+body{
+	height: 100%;
+	background-color: #1696cc;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: space-between;*/
+}
+
+img {
+	width: 25px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+input {
+	color: rgba(0, 0, 0, 1.0);
+	font-weight: bold;
+		border-radius: 4px;
+}
+
+button {
+	font-weight: bold;
+	width: 50%;
+	margin: auto;
+	margin-top: 4px;
+	border-radius: 4px;
+		cursor: pointer;
+	padding: 4px;
+}
+
+/*main {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: salmon;
+}*/
+
+header {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	background-color: rgba(19, 234, 237,1);
+	border-radius: 4px;
+
+}
+
+header .headerContentWrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+}
+
+header .headerContentWrapper p {
+	margin: auto;
+}
+
+header .headerContentWrapper #tema {
+	font-size: 40px;
+	margin-bottom: 12px;
+	font-weight: bold;
+
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 50%;
+	margin: auto;
+	/*background-color: salmon;*/
+	position: relative;
+	height: 500px;
+}
+
+/*containerHeader */
+.containerHeader {
+	margin: 50px 0 50px 0 ;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.containerHeader #temaJudul{
+	margin: auto;
+	background-color: #13eaed;
+	padding: 4px;
+	margin: auto;
+	margin-bottom: 4px;
+	border-radius: 4px;
+}
+
+/*penutup containerHeader*/
+/*containerKegiatan*/
+.containerKegiatan {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.containerKegiatan #temaKegiatan {
+	margin: auto;
+	background-color: #13eaed;
+	padding: 4px;
+	margin: auto;
+	margin-bottom: 4px;
+	border-radius: 4px;
+}
+
+/*penutup containerKegiatan*/
+/*kegiatanWrapper*/
+
+.awalLi {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #3aed34;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.awalLi p {
+	margin: auto;
+	font-weight: bold;
+}
+
+.awalLi .spanBefore {
+	display: block;
+	background-image: url(assets/icon/removeicon.png);
+	width: 26px;
+	height: 26px;
+	margin: auto;
+}
+
+/*=== PEMISAH ===*/
+.akhirLi {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: limegreen;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 10px;
+	cursor: pointer;
+	position: static;
+}
+
+.akhirLi p {
+	margin: auto;
+}
+
+.akhirLi .spanAfter {
+	display: block;
+	background-image: url(assets/icon/centang.png);
+	width: 26px;
+	height: 26px;
+	margin: auto;
+}
+
+/*=== FIX STYLE LI ===*/
+.pKegiatan {
+	font-size: bold;
+	font-size: 16px;
+}
+
+.liStyle {
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+/*=== POP-UP CONFIRM ===*/
+#popupWrapper {
+	background-color:rgba(0, 0, 0, .5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	justify-content: center;
+}
+
+#popUpConfirm {
+	padding: 20px;
+	background-color: /*#13eaed*/ /*#1696cc*/ /*#FFCC00*/ #ff2626;
+	border-radius: 4px;
+	position: relative;
+	z-index: 9999;
+	margin: auto;
+	width: 40%;
+	margin-top: 18%;
+	display: grid;
+	grid-template-columns: 1fr /*1fr*/;
+	/*grid-template: 'tanya tanya'
+						'tombol1 tombol2'
+						;*/
+	grid-gap: 4px;
+}
+
+#popUpConfirm p {
+	margin: auto;
+	display: flex;
+	font-weight: bolder;
+	/*background-color: #13eaed;*/
+	color: rgba(255, 255, 255, 1.0);
+	padding: 4px;
+	border-radius: 4px;
+	justify-content: center;
+/*	grid-area: tanya;
+*/}
+
+#popUpConfirm #ok{
+	/*grid-area: tombol1;*/
+	width: 40%;
+	margin: auto;
+	background-color: #ab0000;
+	color: rgba(255,255,255,1);
+}
+
+#popUpConfirm #cancel{
+	width: 40%;
+	margin: auto;
+	background-color: #ab0000;
+	color: rgba(255,255,255,1);
+}
+
+
+footer {	
+	position: relative;
+	margin: auto;
+	width: 100%;
+	background-color: rgba(19, 234, 237,.8);
+	bottom: 0;	
+	margin-top: 100px;
+	border-radius: 4px;
+	z-index: -99;
+}
+
+footer p {
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+footer #contactWrapper{
+	display: flex;
+	justify-content: center;
+}
+
+footer #contactWrapper ul li a{
+	margin: 8px;
+}
+
+footer #contactWrapper ul li a img{
+	width: 16px;
+}
+
+footer #authorWeb {
+	margin: 8px;
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+}
+
+@media only screen and (max-width: 768px){	
+	footer #authorWeb {
+		margin: 8px;
+		display: flex;
+		justify-content: center;
+		font-size: 8px;
+	}
+}

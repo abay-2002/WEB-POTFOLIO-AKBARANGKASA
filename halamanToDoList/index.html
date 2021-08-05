@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>To do list</title>
+	<!-- google fonts -->
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+	</style>
+	<!-- mycss -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+	<div class="headerContentWrapper">
+		<p id="tema">To Do List</p>
+		<p>Oleh: <a href="http://akbarangkasa.com/" target="blank">abay</a></p>
+	</div>
+</header>
+
+
+<div class="container">
+	<!-- containerHeader -->
+	<div class="containerHeader">
+		<h3 id="temaJudul">Kegiatan liburan :D</h3>
+		<input type="text" id="masukanJudul">
+		<button id="ubahJudul">Ubah Judul</button>
+	</div>	
+	<!-- containerKegiatan -->
+	<div class="containerKegiatan">
+		<h3 id="temaKegiatan">Ceklis kamu:</h3>
+		<input type="text" id="masukanKegiatan">
+		<button id="tambahKegiatan">Tambah</button>
+	</div>
+	<!-- kegiatanWrapper -->
+	<div class="kegiatanWrapper">
+		<ol id="olParentLi">
+			<!-- 
+			<li class="awalLi liStyle">
+				<p class="pKegiatan">Paragraf</p>
+				<span class="spanBefore"></span>
+			</li>
+			<li class="akhirLi liStyle">
+				<p class="pKegiatan">Paragraf</p>
+				<span class="spanAfter"></span>
+			</li>  
+			 -->
+		</ol>
+	</div>
+
+	<div id="popUpParent">
+	
+		<!-- 
+		<div id="popupWrapper">
+			<div id="popUpConfirm">
+				<p>Yakin?</p>
+				<button id="ok" class="tombol">Ok</button>
+				<button id="cancel" class="tombol">Cancel</button>
+			</div>
+		</div>
+ 		-->
+ 	</div>
+	<footer>
+		<p>Terima Kasih</p>
+		<div id="contactWrapper">
+			<ul>
+				<li>
+					<a href="https://github.com/abay-2002" target="blank">
+						<img src="assets/contactlogo/githublogo.png">
+					</a>
+				</li>
+				<li>
+					<a href="mailto:akbar121202@gmail.com" target="blank">
+						<img src="assets/contactlogo/gmaillogo.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://wa.me/6282297008375/?text=Hallo%20Akbar%20Angkasa" target="blank">
+						<img src="assets/contactlogo/whatsapplogo.png">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<a href="http://akbarangkasa.com/" id="authorWeb" target="blank">Copyright2021 akbarangkasa.com</a>
+	</footer>
+</div> <!-- container -->
+
+
+
+</body>
+<script src="script.js"></script>
+<script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+</html>
